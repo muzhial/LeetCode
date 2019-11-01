@@ -1,5 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <string>
+
+/*
+ * in-place
+**/
 #include <iterator>
 
 template <typename T>
@@ -87,6 +92,11 @@ void inplace_test()
     std::cout << std::endl;
 }
 
+template <typename T>
+void MergeSort(std::vector<T>& arr, )
+{
+    std::string a("null");
+}
 
 int main()
 {
