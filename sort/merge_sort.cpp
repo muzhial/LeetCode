@@ -61,7 +61,7 @@ void inplace_test()
      */
     typedef typename std::vector<int>::size_type size_type;
 
-    std::vector<int> v_i{0, 0, 0, 0, 3, 5};
+    std::vector<int> v_i{1, 1, 1, 0, 3, 5};
     size_type first = 0, mid = v_i.size() / 2, last = v_i.size() - 1;   
     size_type i = first, j = mid;
     // i index the left part of vector
@@ -75,6 +75,7 @@ void inplace_test()
             v_i[i] = tmp;
             i++;
             mid++;
+            j++;
         }
         else {
             i++;
