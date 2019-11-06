@@ -7,7 +7,7 @@ template <typename T>
 void NaiveQuickSort(std::vector<T> &arr, std::vector<T> &res_arr)
 {
     typedef typename std::vector<T>::iterator iter_t;
-    if (arr.size() == 1 || arr.empty())    
+    if (arr.empty())    
         return;
 
     T pivot = arr[0];
@@ -16,7 +16,7 @@ void NaiveQuickSort(std::vector<T> &arr, std::vector<T> &res_arr)
 
     for (iter_t i = arr.begin()+1; i != arr.end(); ++i) {
         if (*i < pivot)
-            l_sub_arr.push_back(*i)
+            l_sub_arr.push_back(*i);
         else
             r_sub_arr.push_back(*i);
     }
@@ -24,10 +24,10 @@ void NaiveQuickSort(std::vector<T> &arr, std::vector<T> &res_arr)
     NaiveQuickSort(l_sub_arr, res_arr);
     res_arr.push_back(pivot);
 
-    NaiveQuickSort(r_sub_arr);
+    NaiveQuickSort(r_sub_arr, res_arr);
     if (!r_sub_arr.empty()) {
         for (auto &k : r_sub_arr) {
-            res_arr.push_back(k)
+            res_arr.push_back(k);
         }
     }
 
