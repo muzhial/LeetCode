@@ -13,58 +13,62 @@ public:
         auto p_f = p.begin();
         auto p_l = p.end();        
     
-        if (!p.empty) {
-            while (true) {
-                if (*--p_l == "." || *--p_l == "*") {
-
-                }
-            }
-        }
-        while (true) {
-            if (s_f == s_l && p_f == p_l) {
-                if (s.empty() && p.empty())
-                    return true;
-                if (p.empty())
-                    return false;
-                if (s.empty()) {
-                    if (*p_f != ".")
-                }
-            }
-        }
-
-        while (p_f != p.end() && s_f != s.end()) {
-            if (*p_f == ".") {
-                
-            }
-            else if (*p_f == "*") {
-                if (*(p_f - 1) != ".") {
-                    if (*(p_f - 1) != *s_f)
-                        return false;
-                    else
-                        ++s_f;
-                }
-            }
+        if (s.empty()) {
+            if (p.empty())
+                return true;
             else {
-                if (*p_f == *s_f) {
-                    ++p_f;
-                    ++s_f;
-                }
+                if (*--p_l != '*')
+                    return false;
+                if (*p_f != '.')
+                    return false;
+                if (p.size() == 2)
+                    return true;
                 else
                     return false;
-                
             }
         }
-        if (s_begin == s_end && )
+        else {
+            if (p.empty())
+                return false;
+            else {
+                // string and pattern all not empty
+                for (; s_f != s_l; ++s_f) {
+                    if (*s_f != *p_f) {
+                        if (*p_f == '.') {
+                            ++p_f;
+                            if (p_f == p_l) {
+                                if (s_f + 1 == s_l)
+
+                            }
+                        }
+                        else if (*p_f == '*') {
+
+                        }
+                        else
+                            return false;
+                    }
+                    else {
+                        ++p_f;
+                        if (p_f == p_l) {
+                            if (s_f + 1 == s_l)
+                                return true;
+                            else
+                                return false;
+                        }
+                    }
+                }
+            }
+        }    
     }
 };
 
 int main()
 {
-    std::string s("aaqwq");
-    std::string p(".*");
-    Solution s;
+    std::string s("kjh");
+    std::string p("kjhass");
+    Solution so;
     std::cout << "src: " << s
               << "\npat: " << p << std::endl;
-    std::cout << ">>> " << s.IsMatch(s, p) << std::endl;
+    std::cout << ">>> " << (so.IsMatch(s, p) ? "true" : "false") << std::endl;
     return 0;
 }
