@@ -37,8 +37,13 @@ public:
                         if (*p_f == '.') {
                             ++p_f;
                             if (p_f == p_l) {
-                                if (s_f + 1 == s_l)
-
+                                if (s_f + 1 != s_l)
+                                    return false;
+                                else
+                                    return true;
+                            }
+                            else {
+                                if (*p_f != '*')
                             }
                         }
                         else if (*p_f == '*') {
@@ -57,6 +62,8 @@ public:
                         }
                     }
                 }
+                if (p_f != p_l)
+                    return false;
             }
         }    
     }
