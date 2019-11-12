@@ -4,68 +4,47 @@
 
 
 class Solution {
-typedef typename std::string::iterator iter_t;
 public:
     bool IsMatch(std::string s, std::string p)
     {
-        auto s_f = s.begin();
-        auto s_l = s.end();
-        auto p_f = p.begin();
-        auto p_l = p.end();        
-    
-        if (s.empty()) {
-            if (p.empty())
-                return true;
+        std::string::size_type s_idx = 0, p_idx = 0;
+        return Match(s, p, s_idx, p_idx);
+    }
+
+    bool Match(std::string &s, std::string &p,
+            std::string::size_type s_idx, std::string::size_type p_idx)
+    {
+        if (s_idx == s.size() && p_idx == p.size())
+            return true;
+        while (p_idx != p.size()) {
+            if (s_idx != s.size()) {
+                if (p_idx+1 != p.size() && p[p_idx+1] == '*') {
+                    p_idx += 2;
+                    if (Match(s, p, s_idx, p_idx))
+                        return true;
+                    else
+                        return false;
+                }
+                else if (p[p_idx] == '.') {
+                    ++p_idx;
+                    ++s_idx;
+                }
+                else if (p[p_idx] == s[s_idx]) {
+                    ++p_idx;
+                    ++s_idx;
+                }
+                else
+                    return false;
+            }
             else {
-                if (*--p_l != '*')
-                    return false;
-                if (*p_f != '.')
-                    return false;
-                if (p.size() == 2)
+                if (p_idx+2 == p.size() && p[p_idx+1] == '*')
                     return true;
                 else
                     return false;
             }
         }
-        else {
-            if (p.empty())
-                return false;
-            else {
-                // string and pattern all not empty
-                for (; s_f != s_l; ++s_f) {
-                    if (*s_f != *p_f) {
-                        if (*p_f == '.') {
-                            ++p_f;
-                            if (p_f == p_l) {
-                                if (s_f + 1 != s_l)
-                                    return false;
-                                else
-                                    return true;
-                            }
-                            else {
-                                if (*p_f != '*')
-                            }
-                        }
-                        else if (*p_f == '*') {
-
-                        }
-                        else
-                            return false;
-                    }
-                    else {
-                        ++p_f;
-                        if (p_f == p_l) {
-                            if (s_f + 1 == s_l)
-                                return true;
-                            else
-                                return false;
-                        }
-                    }
-                }
-                if (p_f != p_l)
-                    return false;
-            }
-        }    
+        if (s_idx != s.size())
+            return false;
     }
 };
 
