@@ -22,5 +22,4 @@ leetcode C++ implementation
 | problem | level | origin page | description |
 |:--------|:------|:------------|:------------|
 |[binary tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTree.cpp)|||
-|[94. Binary Tree Inorder
-Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTreeInorderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-inorder-traversal/)||
+|[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTreeInorderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-inorder-traversal/)||
