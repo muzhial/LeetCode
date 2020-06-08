@@ -9,6 +9,9 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 };
 
+/***************
+*     start
+****************/
 // 递归先序遍历
 void RecursiveSolutionPreorder(TreeNode* root, std::vector<int>& res) {
     if(root == nullptr) {
@@ -35,7 +38,9 @@ void StackSolutionPreorder(TreeNode* root, std::vector<int>& res) {
         }
     }
 }
-
+/***************
+*     end
+****************/
 
 int main()
 {

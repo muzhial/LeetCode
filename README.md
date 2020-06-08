@@ -2,7 +2,7 @@
 leetcode C++ implementation
 
 
-| Problem       | Level  |  origin page |
+| problem       | level  |  origin page |
 |:--------------|:------|:------------|
 |[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/AddTwoNumbers.cpp)|Medium|[page](https://leetcode.com/problems/add-two-numbers/)|
 |[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/LongestSubstring.cpp)|Medium|[page](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
@@ -22,4 +22,6 @@ leetcode C++ implementation
 | problem | level | origin page | description |
 |:--------|:------|:------------|:------------|
 |[binary tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTree.cpp)|||
-|[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTreeInorderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-inorder-traversal/)||
+|[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTreeInorderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-inorder-traversal/)|非递归，栈方法|
+|[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/UniqueBinarySearchTreesII.cpp)|Medium|[page](https://leetcode.com/problems/unique-binary-search-trees-ii/)|递归解法，动归阙如|
+|[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/ValidateBinarySearchTree.cpp)|Medium|[page](https://leetcode.com/problems/validate-binary-search-tree/)||
