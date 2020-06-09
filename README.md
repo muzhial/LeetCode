@@ -27,7 +27,7 @@ leetcode C++ implementation
 |[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/95_UniqueBinarySearchTreesII.cpp)|Medium|[page](https://leetcode.com/problems/unique-binary-search-trees-ii/)|递归解法，动归阙如|
 |[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/98_ValidateBinarySearchTree.cpp)|Medium|[page](https://leetcode.com/problems/validate-binary-search-tree/)||
 |[99. Recover Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/99_RecoverBinarySearchTree.cpp)|Hard|[page](https://leetcode.com/problems/recover-binary-search-tree/)|space O(1)|
-|[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-level-order-traversal/)||
+|[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[page](https://leetcode.com/problems/binary-tree-level-order-traversal/)|BFS|
 
 
 ## 算法
