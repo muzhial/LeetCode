@@ -1,6 +1,9 @@
 #include<iostream>
 #include<vector>
 #include<stack>
+#include <limits>
+using namespace std;
+using std::vector;
 
 struct TreeNode {
     int val;
@@ -42,34 +45,25 @@ void StackSolutionPreorder(TreeNode* root, std::vector<int>& res) {
 *     end
 ****************/
 
+void InorderTravel(TreeNode* root) {
+    if (root == nullptr) {
+        return;
+    }
+    InorderTravel(root->left);
+    cout << root->val << " ";
+    InorderTravel(root->right);
+}
+
 int main()
 {
-    TreeNode n1(1);
-    TreeNode n2(2);
-    TreeNode n3(3);
-    TreeNode n4(4);
-    TreeNode n5(5);
-    TreeNode n6(6);
-    TreeNode n7(7);
-    TreeNode n8(8);
-    
-    n1.left = &n2;
-    n1.right = &n3;
-
-    n3.left = &n4;
-    n3.right = &n5;
-
-    n5.left = &n6;
-    n5.right = &n7;
-
-    n6.right = &n8;
-
-    std::vector<int> res;
-    StackSolutionPreorder(&n1, res);
-
-    for(auto i : res) {
-        std::cout << i << " ";
+    int MIN = numeric_limits<int>::min();
+    vector<TreeNode> tree = { 2, 1, 3};
+    for (int i = 0; i < tree.size() / 2; ++i) {
+        if (tree[i].val != MIN) {
+            tree[i].left = &tree[2*i + 1];
+            tree[i].right = &tree[2*i + 2];
+        }
     }
-    std::cout << std::endl;
-    return 0;
+
+    InorderTravel(&tree[0]);
 }
