@@ -39,3 +39,6 @@ leetcode C++ implementation
 |[322. Coin Change](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
 |[300. Longest Increasing Subsequence](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
 |[53. Maximum Subarray](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。双指针不可行|
+|[0/1 Knapsack Problem](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
+|[416. Partition Equal Subset Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
+

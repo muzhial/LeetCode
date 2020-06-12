@@ -4,7 +4,6 @@ using namespace std;
 using std::vector;
 
 /***************
-*     start
 ****************/
 class Solution {
 public:
@@ -24,5 +23,4 @@ public:
     }
 };
 /***************
-*     end
 ****************/

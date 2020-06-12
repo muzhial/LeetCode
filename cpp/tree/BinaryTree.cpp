@@ -13,7 +13,6 @@ struct TreeNode {
 };
 
 /***************
-*     start
 ****************/
 // 递归先序遍历
 void RecursiveSolutionPreorder(TreeNode* root, std::vector<int>& res) {
@@ -42,7 +41,6 @@ void StackSolutionPreorder(TreeNode* root, std::vector<int>& res) {
     }
 }
 /***************
-*     end
 ****************/
 
 void InorderTravel(TreeNode* root) {

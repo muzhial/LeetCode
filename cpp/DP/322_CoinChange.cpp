@@ -10,7 +10,6 @@ using std::unordered_map;
 
 
 /***************
-*     start
 ****************/
 // ------- Method 1: 备忘录，自顶向下 -------
 int helper(vector<int>& coins, int amount, unordered_map<int, int>& memo) {
@@ -61,5 +60,4 @@ int coinChange(vector<int>& coins, int amount) {
     return (dp[amount] != amount + 1) ? dp[amount] : -1;
 }
 /***************
-*     end
 ****************/
