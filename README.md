@@ -30,6 +30,7 @@ leetcode C++ implementation
 |[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-level-order-traversal/)|BFS|
 
 
+
 ## 算法
 
 ### Dynamic Programming
@@ -38,7 +39,7 @@ leetcode C++ implementation
 |:------------|:------|:----|:-------------------|
 |[322. Coin Change](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
 |[300. Longest Increasing Subsequence](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
-|[53. Maximum Subarray](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。双指针不可行|
+|[53. Maximum Subarray](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
 |[0/1 Knapsack Problem](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
 |[416. Partition Equal Subset Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
-
+|[518. Coin Change 2](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
