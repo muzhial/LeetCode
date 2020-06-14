@@ -24,11 +24,14 @@ leetcode C++ implementation
 |:------------|:------|:----|:-------------------|
 |[binary tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTree.cpp)|||
 |[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/94_BinaryTreeInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-inorder-traversal/)|非递归，栈方法|
-|[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/95_UniqueBinarySearchTreesII.cpp)|Medium|[A](https://leetcode.com/problems/unique-binary-search-trees-ii/)|递归解法，动归阙如|
-|[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/98_ValidateBinarySearchTree.cpp)|Medium|[A](https://leetcode.com/problems/validate-binary-search-tree/)||
-|[99. Recover Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/99_RecoverBinarySearchTree.cpp)|Hard|[A](https://leetcode.com/problems/recover-binary-search-tree/)|space O(1)|
-|[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-level-order-traversal/)|BFS|
-
+|[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/95_UniqueBinarySearchTreesII.cpp)|Medium|[A](https://leetcode.com/problems/unique-binary-search-trees-ii/)|BST，递归解法，动归阙如|
+|[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/98_ValidateBinarySearchTree.cpp)|Medium|[A](https://leetcode.com/problems/validate-binary-search-tree/)|BST|
+|[99. Recover Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/99_RecoverBinarySearchTree.cpp)|Hard|[A](https://leetcode.com/problems/recover-binary-search-tree/)|BST，space O(1)|
+|[111. Minimum Depth of Binary Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/111_MinimumDepthBinaryTree.cpp)|Easy|[A](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|二叉树深度，BFS|
+|[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树遍历，BFS|
+|[103. Binary Tree Zigzag Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/103_BinaryTreeZigzagLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|二叉树遍历，BFS|
+|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/105_ConstructBinaryTreePreorderInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|二叉树构造|
+|[106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/106_ConstructBinaryTreeInorderPostorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|二叉树构造|
 
 
 ## 算法

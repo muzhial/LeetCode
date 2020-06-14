@@ -11,9 +11,10 @@ class Solution {
 public:
     // 压缩状态后
     int change(int amount, vector<int>& coins) {
-        if (coins.size() == 0) {
-            return 0;
-        }
+        // 这个边界限定多余
+        // if (coins.size() == 0) {
+        //     return 0;
+        // }
         vector<int> dp(amount + 1, 0);
         // base case
         dp[0] = 1;
@@ -33,7 +34,9 @@ public:
         // method 2 is correct
         for (auto coin: coins) {
             for (int i = 1; i <= amount; ++i) {
-                dp[i] += dp[i-coin];
+                if (i - coin >= 0) {
+                    dp[i] += dp[i-coin];
+                }
             }
         }
         return dp[amount];

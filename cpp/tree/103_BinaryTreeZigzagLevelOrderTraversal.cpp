@@ -1,12 +1,9 @@
 #include <iostream>
 #include <limits>   // numeric_limits
-#include <utility>  // swap
 #include <vector>
-#include <stack>
 #include <queue>
 using namespace std;
 using std::vector;
-using std::stack;
 using std::queue;
 
 struct TreeNode {
@@ -21,20 +18,24 @@ struct TreeNode {
 ****************/
 class Solution {
 public:
-    vector<vector<int>> levelOrder(TreeNode* root) {
-        vector<vector<int>> res;
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         if (root == nullptr) {
-            return {};
+            return vector<vector<int>> ();
         }
+        vector<vector<int>> re;
         queue<TreeNode*> q;
         q.push(root);
+        bool flag = true;  // left to right
         while (!q.empty()) {
-            // 存储每层的 nodes
-            vector<int> level_nodes;
-            int q_size = q.size();
-            for (int i = 0; i < q_size; ++i) {
+            int q_sz = q.size();
+            vector<int> level_nodes(q_sz);
+            for (int i = 0; i < q_sz; ++i) {
                 TreeNode* cur = q.front();
-                level_nodes.push_back(cur->val);
+                if (flag) {
+                    level_nodes[i] = cur->val;
+                } else {
+                    level_nodes[q_sz - i - 1] = cur->val;
+                }
                 if (cur->left != nullptr) {
                     q.push(cur->left);
                 }
@@ -43,10 +44,13 @@ public:
                 }
                 q.pop();
             }
-            res.push_back(level_nodes);
+            re.push_back(level_nodes);
+            flag = !flag;
         }
-        return res;
+        return re;
     }
+
+    //TODO 双端队列实现
 };
 /***************
 ****************/

@@ -1,12 +1,9 @@
 #include <iostream>
 #include <limits>   // numeric_limits
-#include <utility>  // swap
 #include <vector>
-#include <stack>
 #include <queue>
 using namespace std;
 using std::vector;
-using std::stack;
 using std::queue;
 
 struct TreeNode {
@@ -21,31 +18,32 @@ struct TreeNode {
 ****************/
 class Solution {
 public:
-    vector<vector<int>> levelOrder(TreeNode* root) {
-        vector<vector<int>> res;
+    int minDepth(TreeNode* root) {
         if (root == nullptr) {
-            return {};
+            return 0;
         }
-        queue<TreeNode*> q;
+        queue<TreeNode*> q;  // BFS 使用队列
+        int depth = 1;
         q.push(root);
+        
         while (!q.empty()) {
-            // 存储每层的 nodes
-            vector<int> level_nodes;
-            int q_size = q.size();
-            for (int i = 0; i < q_size; ++i) {
-                TreeNode* cur = q.front();
-                level_nodes.push_back(cur->val);
-                if (cur->left != nullptr) {
-                    q.push(cur->left);
+            int level_cap = q.size();
+            for (int i = 0; i < level_cap; ++i) {
+                TreeNode* first = q.front();
+                if (first->left == nullptr && first->right == nullptr) {
+                    return depth;
                 }
-                if (cur->right != nullptr) {
-                    q.push(cur->right);
+                if (first->left != nullptr) {
+                    q.push(first->left);
+                }
+                if (first->right != nullptr) {
+                    q.push(first->right);
                 }
                 q.pop();
             }
-            res.push_back(level_nodes);
+            depth++;
         }
-        return res;
+        return depth;
     }
 };
 /***************
