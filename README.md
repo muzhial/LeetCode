@@ -32,6 +32,10 @@ leetcode C++ implementation
 |[103. Binary Tree Zigzag Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/103_BinaryTreeZigzagLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|二叉树遍历，BFS|
 |[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/105_ConstructBinaryTreePreorderInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|二叉树构造|
 |[106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/106_ConstructBinaryTreeInorderPostorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|二叉树构造|
+|[108. Convert Sorted Array to Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/108_ConvertSortedArrayBST.cpp)|Easy|[A](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|BST 构造，ref.95|
+|[113. Path Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/113_PathSumII.cpp)|Medium|[A](https://leetcode.com/problems/path-sum-ii/)|binary tree，DFS|
+|[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||
+
 
 
 ## 算法

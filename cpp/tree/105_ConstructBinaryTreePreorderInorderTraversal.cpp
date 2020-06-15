@@ -57,6 +57,7 @@ public:
 
         int mid = -1;
         int cur;
+        // 稍作改进即可
         for (auto pre: preorder) {
             auto inorder_mid = inorder_map.find(pre);
             if (inorder_mid->second >= start && inorder_mid->second < end) {
