@@ -17,30 +17,26 @@ struct TreeNode {
 class Solution {
 public:
     void flatten(TreeNode* root) {
-        helper(root);
-    }
-    TreeNode* helper(TreeNode* root) {
         if (root == nullptr) {
-            return nullptr;
+            return;
         }
-        if (root->left == nullptr) {
-            return root;
-        }
-        if (root->right == nullptr) {
-            return root;
-        }
-        TreeNode* rgh_r = root->right;
-        TreeNode* lft_r = helper(root->left);
-        if (lft_r != nullptr) {
-            root->right = lft_r;
-            root->left = nullptr;
-        }
-        if (lft_r->right == nullptr) {
-            lft_r->right = rgh_r;
+        TreeNode* lft = root->left;
+        TreeNode* rht = root->right;
+        
+        if (top == nullptr) {
+            top = lft;
         } else {
-            helper(lft_r->right);
+            top->right = root;
+            top->left = nullptr;
         }
+
+        flatten(lft);
+        flatten(rht);
     }
+private:
+    // 上一层 root 指针。同级指针使用 return 方式返回上级指针来达到
+    // 目的，代码冗余难读
+    TreeNode* top = nullptr;
 };
 /***************
 ****************/
