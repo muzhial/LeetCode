@@ -13,9 +13,12 @@ struct TreeNode {
 };
 
 /***************
+ * [TODO]
+ * postorder solution and non-recursive solution
 ****************/
 class Solution {
 public:
+    // preorder recursive
     void flatten(TreeNode* root) {
         if (root == nullptr) {
             return;
@@ -24,19 +27,35 @@ public:
         TreeNode* rht = root->right;
         
         if (top == nullptr) {
-            top = lft;
+            top = root;
         } else {
             top->right = root;
             top->left = nullptr;
+            top = root;
         }
-
         flatten(lft);
         flatten(rht);
     }
 private:
-    // 上一层 root 指针。同级指针使用 return 方式返回上级指针来达到
-    // 目的，代码冗余难读
     TreeNode* top = nullptr;
+
+public:
+    // non-recursive
+    void flattenI(TreeNode* root) {
+        TreeNode* cur = root;
+        while (cur != nullptr) {
+            if (cur->left != nullptr) {
+                TreeNode* top = cur->left;
+                while (top->right != nullptr) {
+                    top = top->right;
+                }
+                top->right = cur->right;
+                cur->right = cur->left;
+                cur->left = nullptr;
+            }
+            cur = cur->right;
+        }
+    }
 };
 /***************
 ****************/

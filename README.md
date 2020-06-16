@@ -34,8 +34,9 @@ leetcode C++ implementation
 |[106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/106_ConstructBinaryTreeInorderPostorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|二叉树构造|
 |[108. Convert Sorted Array to Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/108_ConvertSortedArrayBST.cpp)|Easy|[A](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|BST 构造，ref.95|
 |[113. Path Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/113_PathSumII.cpp)|Medium|[A](https://leetcode.com/problems/path-sum-ii/)|binary tree，DFS|
-|[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)||
-
+|[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|指针，in-place，递归深入|
+|[117_NextRightPointersII](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/117_NextRightPointersII.cpp)|Medium|[A](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|指针，非递归实现|
+|[124. Binary Tree Maximum Path Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/124_BTMaxPathSum.cpp)|Hard|[A](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
 
 
 ## 算法
