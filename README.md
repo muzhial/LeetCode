@@ -39,7 +39,15 @@ leetcode C++ implementation
 |[124. Binary Tree Maximum Path Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/124_BTMaxPathSum.cpp)|Hard|[A](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
 |[701. Insert into a Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/701_InsertBST.cpp)|Medium|[A](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|BST 操作，插入|
 |[450. Delete Node in a BST](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/450_DelNodeBST.cpp)|Medium|[A](https://leetcode.com/problems/delete-node-in-a-bst/)|BST 操作，删除|
-|[二叉堆(Binary Heap)](https://github.com/kant-chan/LeetCode/blob/master/cpp/sort/binary_heap.cpp)|||对排序和优先队列(Priority Queue)|
+|二叉堆(Binary Heap)|||对排序和优先队列(Priority Queue)|
+|[二叉堆(Binary Heap)](https://github.com/kant-chan/LeetCode/blob/master/cpp/sort/binary_heap.cpp)|||基本框架|
+
+### 链表
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[160. Intersection of Two Linked Lists](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/160_IntersectionTwoLL.cpp)|Easy|[A](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)||
+|[206. Reverse Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/206_ReverseLList.cpp)|Easy|[A](https://leetcode.com/problems/reverse-linked-list/description/)|反转链表|
 
 
 ## 算法

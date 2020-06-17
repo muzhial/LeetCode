@@ -7,6 +7,9 @@ using std::vector;
 // max priority queue
 class BinaryHeap {
 public:
+    BinaryHeap() {
+        pq_.push_back(0);
+    }
     BinaryHeap(vector<int>pq) {
         pq_.push_back(0);
         pq_.insert(pq_.end(), pq.begin(), pq.end());
@@ -38,7 +41,7 @@ public:
         }
     }
     void sink(int k) {
-        while (k <= size() / 2) {
+        while (k < size() / 2) {
             int greater = pq_[left(k)] < pq_[right(k)] ? right(k) : left(k);
             if (pq_[greater] < pq_[k]) {
                 break;
@@ -49,16 +52,29 @@ public:
     }
     void insert(int val) {
         pq_.push_back(val);
-        swim(size());
+        swim(size() - 1);
     }
     int del() {
         int max_ = max();
-        exch(1, size());
+        exch(1, size() - 1);
         pq_.pop_back();
         sink(1);
         return max_;
     }
     // 如果时删除某个指定 key 呢?
+
+    // 构建 maxheap
+    void build() {
+        for (int k = (size() - 1) / 2; k >= 1; --k) {
+            sink(k);
+        }
+    }
+    void print() {
+        for (auto& v : pq_) {
+            cout << v << " ";
+        }
+        cout << endl;
+    }
 
 private:
     // 从索引 1 开始存储
@@ -67,6 +83,12 @@ private:
 
 int main() {
     vector<int> vi{1, 2, 4, 5, 12, 56, 8, 10};
-    BinaryHeap bp(vi);
+    BinaryHeap bp;
     cout << bp.size() << endl;
+    for (auto v : vi) {
+        bp.insert(v);
+    }
+    bp.print();
+    cout << bp.del() << endl;
+    bp.print();
 }
