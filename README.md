@@ -37,6 +37,9 @@ leetcode C++ implementation
 |[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|指针，in-place，递归深入|
 |[117_NextRightPointersII](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/117_NextRightPointersII.cpp)|Medium|[A](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|指针，非递归实现|
 |[124. Binary Tree Maximum Path Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/124_BTMaxPathSum.cpp)|Hard|[A](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
+|[701. Insert into a Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/701_InsertBST.cpp)|Medium|[A](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|BST 操作，插入|
+|[450. Delete Node in a BST](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/450_DelNodeBST.cpp)|Medium|[A](https://leetcode.com/problems/delete-node-in-a-bst/)|BST 操作，删除|
+|[二叉堆(Binary Heap)](https://github.com/kant-chan/LeetCode/blob/master/cpp/sort/binary_heap.cpp)|||对排序和优先队列(Priority Queue)|
 
 
 ## 算法
