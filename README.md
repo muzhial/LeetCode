@@ -47,7 +47,12 @@ leetcode C++ implementation
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
 |[160. Intersection of Two Linked Lists](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/160_IntersectionTwoLL.cpp)|Easy|[A](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)||
-|[206. Reverse Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/206_ReverseLList.cpp)|Easy|[A](https://leetcode.com/problems/reverse-linked-list/description/)|反转链表|
+|[206. Reverse Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/206_ReverseLList.cpp)|Easy|[A](https://leetcode.com/problems/reverse-linked-list/description/)|反转链表，iterative and recursive|
+|[21. Merge Two Sorted Lists](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/21_MergeSortedL.cpp)|Easy|[A](https://leetcode.com/problems/merge-two-sorted-lists/description/)|递归，迭代|
+|[83. Remove Duplicates from Sorted List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/83_RemoveDuplicatesSortedList.cpp)|Easy|[A](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|递归|
+|[19. Remove Nth Node From End of List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/19_RemoveNthNodeFromEndList.cpp)|Medium|[A](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|递归解法，迭代阙如|
+|[24. Swap Nodes in Pairs](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/24_SwapNodesPairs.cpp)|Medium|[A](https://leetcode.com/problems/swap-nodes-in-pairs)|不能修改 node 的 val 值|
+
 
 
 ## 算法
