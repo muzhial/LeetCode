@@ -12,11 +12,6 @@ leetcode C++ implementation
 |[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)|
 |[10. Regular Expression Matching](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/10_RegularMatch.cpp)|Hard|[A](https://leetcode.com/problems/regular-expression-matching/)|
 
-### binary search
-
-| problem      | level | addr| description      |
-|:-------------|:------|:----|:-----------------|
-|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||
 
 ### tree
 
@@ -50,9 +45,19 @@ leetcode C++ implementation
 |[206. Reverse Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/206_ReverseLList.cpp)|Easy|[A](https://leetcode.com/problems/reverse-linked-list/description/)|反转链表，iterative and recursive|
 |[21. Merge Two Sorted Lists](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/21_MergeSortedL.cpp)|Easy|[A](https://leetcode.com/problems/merge-two-sorted-lists/description/)|递归，迭代|
 |[83. Remove Duplicates from Sorted List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/83_RemoveDuplicatesSortedList.cpp)|Easy|[A](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|递归|
-|[19. Remove Nth Node From End of List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/19_RemoveNthNodeFromEndList.cpp)|Medium|[A](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|递归解法，迭代阙如|
+|[19. Remove Nth Node From End of List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/19_RemoveNthNodeFromEndList.cpp)|Medium|[A](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|递归解法，迭代/双指针阙如|
 |[24. Swap Nodes in Pairs](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/24_SwapNodesPairs.cpp)|Medium|[A](https://leetcode.com/problems/swap-nodes-in-pairs)|不能修改 node 的 val 值|
+|[445. Add Two Numbers II](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/445_AddTwoNumbersII.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers-ii/)|栈解法|
+|[328. Odd Even Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/328_OddEvenLinkedList.cpp)|Medium|[A](https://leetcode.com/problems/odd-even-linked-list/description/)||
 
+### 队列和栈
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[232. Implement Queue using Stacks](https://github.com/muzhichan/LeetCode/blob/master/cpp/queue_stack/232_ImplementQueueByStacks.cpp)|Easy|[A](https://leetcode.com/problems/implement-queue-using-stacks/)|栈实现队列|
+|[225. Implement Stack using Queues](https://github.com/muzhichan/LeetCode/blob/master/cpp/queue_stack/225_ImplementStackByQueues.cpp)|Easy|[A](https://leetcode.com/problems/implement-stack-using-queues/)|队列实现栈|
+|[20. Valid Parentheses](https://github.com/muzhichan/LeetCode/blob/master/cpp/queue_stack/20_ValidParentheses.cpp)|Easy|[A](https://leetcode.com/problems/valid-parentheses/)||
+|[739. Daily Temperatures](https://github.com/muzhichan/LeetCode/blob/master/cpp/queue_stack/739_DailyTemperatures.cpp)|Medium|[A](https://leetcode.com/problems/daily-temperatures/)|数组中元素与下一个比它大的元素之间的距离|
 
 
 ## 算法
@@ -67,3 +72,9 @@ leetcode C++ implementation
 |[0/1 Knapsack Problem](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
 |[416. Partition Equal Subset Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
 |[518. Coin Change 2](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+
+### binary search
+
+| problem      | level | addr| description      |
+|:-------------|:------|:----|:-----------------|
+|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)||基本框架|
