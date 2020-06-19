@@ -77,4 +77,4 @@ leetcode C++ implementation
 
 | problem      | level | addr| description      |
 |:-------------|:------|:----|:-----------------|
-|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)||基本框架|
+|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
