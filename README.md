@@ -62,6 +62,14 @@ leetcode C++ implementation
 
 ## 算法
 
+### binary search
+
+| problem      | level | addr| description      |
+|:-------------|:------|:----|:-----------------|
+|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
+|[34. Find First and Last Position of Element in Sorted Array](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
+|[4. Median of Two Sorted Arrays](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)||
+
 ### Dynamic Programming
 
 | problem     | level | addr| description        |
@@ -72,9 +80,3 @@ leetcode C++ implementation
 |[0/1 Knapsack Problem](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
 |[416. Partition Equal Subset Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
 |[518. Coin Change 2](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
-
-### binary search
-
-| problem      | level | addr| description      |
-|:-------------|:------|:----|:-----------------|
-|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|

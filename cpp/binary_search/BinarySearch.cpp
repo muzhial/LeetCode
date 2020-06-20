@@ -1,9 +1,12 @@
-#include <iostream>
-#include <vector>
-#include <string>
+#include "../common.hpp"
+using namespace std;
+using std::vector;
 
-// first position
-int BinarySearch(std::vector<int> &A, int target) {
+/***************
+****************/
+// Method 1
+// 左侧边界
+int BinarySearchI(vector<int> &A, int target) {
     int start = 0;
     int end = A.size();
     int mid = 0;
@@ -28,4 +31,60 @@ int BinarySearch(std::vector<int> &A, int target) {
         return end;
     }
     return -1;
+}
+
+// Method 2
+// 一般情况
+int BinarySearchII(vector<int>& A, int target) {
+    int left = 0;
+    int right = A.size() - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (A[mid] > target) {
+            right = mid - 1;
+        } else if (A[mid] < target) {
+            left = mid + 1;
+        } else if (A[mid] == target) {
+            return mid;
+        }
+    }
+    return -1;
+}
+
+int LeftBound(vector<int>& A, int target) {
+    int left = 0;
+    int right = A.size() - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (A[mid] > target) {
+            right = mid - 1;
+        } else if (A[mid] < target) {
+            left = mid + 1;
+        } else if (A[mid] == target) {
+            right = mid - 1;
+        }
+    }
+    if (left >= A.size() || A[left] != target) {
+        return -1;
+    }
+    return left;
+}
+
+int RightBound(vector<int>& A, int target) {
+    int left = 0;
+    int right = A.size() - 1;
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (A[mid] > target) {
+            right = mid - 1;
+        } else if (A[mid] < target) {
+            left = mid + 1;
+        } else if (A[mid] == target) {
+            left = mid + 1;
+        }
+    }
+    if (right < 0 || A[right] != target) {
+        return -1;
+    }
+    return right;
 }
