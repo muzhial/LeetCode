@@ -2,7 +2,7 @@
 #define COMMON_H_
 
 #include <iostream>
-#include <utility>
+#include <utility>          // swap
 #include <limits>
 #include <string>
 #include <vector>

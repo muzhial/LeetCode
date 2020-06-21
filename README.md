@@ -66,17 +66,19 @@ leetcode C++ implementation
 
 | problem      | level | addr| description      |
 |:-------------|:------|:----|:-----------------|
-|[basic binary search](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
-|[34. Find First and Last Position of Element in Sorted Array](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
-|[4. Median of Two Sorted Arrays](https://github.com/kant-chan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)||
+|[basic binary search](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
+|[34. Find First and Last Position of Element in Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
+|[4. Median of Two Sorted Arrays](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)||
+|[29. Divide Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/29_DivideTwoIntegers.cpp)|Medium|[A](https://leetcode.com/problems/divide-two-integers/)|未完成|
+|[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)||
 
 ### Dynamic Programming
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[322. Coin Change](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
-|[300. Longest Increasing Subsequence](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
-|[53. Maximum Subarray](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
-|[0/1 Knapsack Problem](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
-|[416. Partition Equal Subset Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
-|[518. Coin Change 2](https://github.com/kant-chan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+|[322. Coin Change](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
+|[300. Longest Increasing Subsequence](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
+|[53. Maximum Subarray](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
+|[0/1 Knapsack Problem](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
+|[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
+|[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
