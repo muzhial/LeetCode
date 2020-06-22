@@ -69,8 +69,12 @@ leetcode C++ implementation
 |[basic binary search](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
 |[34. Find First and Last Position of Element in Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
 |[4. Median of Two Sorted Arrays](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)||
-|[29. Divide Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/29_DivideTwoIntegers.cpp)|Medium|[A](https://leetcode.com/problems/divide-two-integers/)|未完成|
-|[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)||
+|[29. Divide Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/29_DivideTwoIntegers.cpp)|Medium|[A](https://leetcode.com/problems/divide-two-integers/)|位操作|
+|[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)|画图辅助思考|
+|[50. Pow(x, n)](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/50_powx_n.cpp)|Medium|[A](https://leetcode.com/problems/powx-n/)|可写得更简洁|
+|[74. Search a 2D Matrix](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/74_Search2DMatrix.cpp)|Medium|[A](https://leetcode.com/problems/search-a-2d-matrix/)||
+|[81. Search in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/81_SearchRotatedSortedArrayII.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)||
+
 
 ### Dynamic Programming
 

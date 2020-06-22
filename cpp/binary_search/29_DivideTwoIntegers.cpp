@@ -10,41 +10,28 @@ public:
     int divide(int dividend, int divisor) {
         int MIN = std::numeric_limits<int>::min();
         int MAX = std::numeric_limits<int>::max();
-        int sign = true;  // true for positive
-        // divisor is -2^31
-        if (divisor == MIN) {
-            if (dividend == MIN) {
-                return 1;
-            } else {
-                return 0;
+        if(divisor == 1) return dividend;
+        
+        if(dividend == MIN && divisor == -1) return MAX;
+        
+        long long ans = 0;
+        long long a = std::abs(dividend);
+        long long b = std::abs(divisor);
+        
+        while(a >= b) {
+            long long t = b;
+            long long m = 1;
+            
+            while(t<<1 < a) {
+                t <<= 1;
+                m <<= 1;
             }
+            
+            ans += m;
+            a -= t;
         }
-        if (dividend < 0) {
-            if (dividend == MIN) {
-                dividend = MAX;
-            } else {
-                dividend = -1 * dividend - 1;
-            }
-            sign = !sign;
-        } else {
-            dividend -= 1;
-        }
-        if (divisor < 0) {
-            divisor = -1 * divisor;
-            sign = !sign;
-        }
-        int l = divisor;
-        int r = dividend;
-        int count = 0;
-        while (l - 1 <= r) {
-            l = l + divisor;
-            count++;
-        }
-        if (sign) {
-            return count;
-        } else {
-            return -1 * count;
-        }
+        
+        return dividend > 0 == divisor > 0 ? ans : -ans;
     }
 };
 

@@ -15,7 +15,7 @@ public:
                 l = mid + 1;
             } else if (target > nums[mid] && nums[mid] < nums[0]) {
                 r = mid - 1;
-            } else if (target < nums[mid] && (target > nums[0] || nums[mid] <= nums[0])) {
+            } else if (target < nums[mid] && (target >= nums[0] || nums[mid] < nums[0])) {
                 r = mid - 1;
             } else if (target < nums[mid] && nums[mid] >= nums[0]) {
                 l = mid + 1;
