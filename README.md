@@ -73,7 +73,8 @@ leetcode C++ implementation
 |[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)|画图辅助思考|
 |[50. Pow(x, n)](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/50_powx_n.cpp)|Medium|[A](https://leetcode.com/problems/powx-n/)|可写得更简洁|
 |[74. Search a 2D Matrix](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/74_Search2DMatrix.cpp)|Medium|[A](https://leetcode.com/problems/search-a-2d-matrix/)||
-|[81. Search in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/81_SearchRotatedSortedArrayII.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)||
+|[81. Search in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/81_SearchRotatedSortedArrayII.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|臃肿|
+|[153. Find Minimum in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/153_MinimumRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)||
 
 
 ### Dynamic Programming
