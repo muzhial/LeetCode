@@ -80,6 +80,7 @@ leetcode C++ implementation
 |[142. Linked List Cycle II](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/142_LinkedListCycleII.cpp)|Medium|[A](https://leetcode.com/problems/linked-list-cycle-ii/)|快慢指针，环的结点|
 |滑动窗口||||
 |[76. Minimum Window Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/76_MinimumWindowSubstring.cpp)|Hard|[A](https://leetcode.com/problems/minimum-window-substring/)|基本框架|
+|[567. Permutation in String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/567_PermutationString.cpp)|Medium|[A](https://leetcode.com/problems/permutation-in-string/)||
 
 
 ### Dynamic Programming

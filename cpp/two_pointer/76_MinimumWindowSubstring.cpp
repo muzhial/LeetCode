@@ -12,12 +12,12 @@ public:
         for (auto c : t) {
             needs[c]++;
         }
-
+        int MAX = numeric_limits<int>::max();
         int l = 0;
         int r = 0;
         int valid = 0;
         int start = 0;
-        int len = numeric_limits<int>::min();
+        int len = MAX;
         while (r < s.size()) {
             char c = s[r];
             // 窗口右移 [l, r)
@@ -31,8 +31,21 @@ public:
             }
             // 判断左窗口是否需要收缩
             while (valid == needs.size()) {
-                
+                if (r - l < len) {
+                    len = r - l;
+                    start = l;
+                }
+                char d = s[l];
+                // 窗口收缩
+                l++;
+                if (needs.count(d)) {
+                    if (windows[d] == needs[d]) {
+                        valid--;
+                    }
+                    windows[d]--;
+                }
             }
         }
+        return len == MAX ? "" : s.substr(start, len);
     }
 };
