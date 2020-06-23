@@ -3,16 +3,6 @@ leetcode C++ implementation
 
 ## 数据结构
 
-| problem       | level | addr|
-|:--------------|:------|:----|
-|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)|
-|[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
-|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)|
-|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)|
-|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)|
-|[10. Regular Expression Matching](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/10_RegularMatch.cpp)|Hard|[A](https://leetcode.com/problems/regular-expression-matching/)|
-
-
 ### tree
 
 | problem     | level | addr| description        |
@@ -73,8 +63,23 @@ leetcode C++ implementation
 |[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)|画图辅助思考|
 |[50. Pow(x, n)](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/50_powx_n.cpp)|Medium|[A](https://leetcode.com/problems/powx-n/)|可写得更简洁|
 |[74. Search a 2D Matrix](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/74_Search2DMatrix.cpp)|Medium|[A](https://leetcode.com/problems/search-a-2d-matrix/)||
-|[81. Search in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/81_SearchRotatedSortedArrayII.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|臃肿|
-|[153. Find Minimum in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/153_MinimumRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)||
+|[81. Search in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/81_SearchRotatedSortedArrayII.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|待优化|
+|[153. Find Minimum in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/153_MinimumRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|注意边界情况|
+|[154. Find Minimum in Rotated Sorted Array II](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/154_MinimumRotatedSortedArrayII.cpp)|Hard|[A](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|注意边界情况|
+
+
+### 双指针与滑动窗口
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[167. Two Sum II - Input array is sorted](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/167_TwoSumII.cpp)|Easy|[A](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|注意溢出|
+|[345. Reverse Vowels of a String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/345_ReverseVowelsString.cpp)|Easy|[A](https://leetcode.com/problems/reverse-vowels-of-a-string/)|也可以用栈|
+|[680. Valid Palindrome II](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/680_ValidPalindromeII.cpp)|Easy|[A](https://leetcode.com/problems/valid-palindrome-ii/)||
+|[88. Merge Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/88_MergeSortedArray.cpp)|Easy|[A](https://leetcode.com/problems/merge-sorted-array/)||
+|[141. Linked List Cycle](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/141_LinkedListCycle.cpp)|Easy|[A](https://leetcode.com/problems/linked-list-cycle/)|快慢指针，判断是否有环|
+|[142. Linked List Cycle II](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/142_LinkedListCycleII.cpp)|Medium|[A](https://leetcode.com/problems/linked-list-cycle-ii/)|快慢指针，环的结点|
+|滑动窗口||||
+|[76. Minimum Window Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/76_MinimumWindowSubstring.cpp)|Hard|[A](https://leetcode.com/problems/minimum-window-substring/)|基本框架|
 
 
 ### Dynamic Programming
@@ -87,3 +92,15 @@ leetcode C++ implementation
 |[0/1 Knapsack Problem](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
 |[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
 |[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+
+
+## Other
+
+| problem       | level | addr|
+|:--------------|:------|:----|
+|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)|
+|[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
+|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)|
+|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)|
+|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)|
+|[10. Regular Expression Matching](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/10_RegularMatch.cpp)|Hard|[A](https://leetcode.com/problems/regular-expression-matching/)|
