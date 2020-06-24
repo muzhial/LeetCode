@@ -80,7 +80,16 @@ leetcode C++ implementation
 |[142. Linked List Cycle II](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/142_LinkedListCycleII.cpp)|Medium|[A](https://leetcode.com/problems/linked-list-cycle-ii/)|快慢指针，环的结点|
 |滑动窗口||||
 |[76. Minimum Window Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/76_MinimumWindowSubstring.cpp)|Hard|[A](https://leetcode.com/problems/minimum-window-substring/)|基本框架|
-|[567. Permutation in String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/567_PermutationString.cpp)|Medium|[A](https://leetcode.com/problems/permutation-in-string/)||
+|[567. Permutation in String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/567_PermutationString.cpp)|Medium|[A](https://leetcode.com/problems/permutation-in-string/)|缩小窗口的条件确定|
+|[438. Find All Anagrams in a String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/438_FindAllAnagramsString.cpp)|Medium|[A](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|567 的变体|
+|[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/two_pointer/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
+
+
+### 回溯(backtracking)
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[46. Permutations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/46_Permutations.cpp)|Medium|[A](https://leetcode.com/problems/permutations/)|基本框架，a collection of distinct integers|
 
 
 ### Dynamic Programming
@@ -100,7 +109,6 @@ leetcode C++ implementation
 | problem       | level | addr|
 |:--------------|:------|:----|
 |[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)|
-|[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|
 |[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)|
 |[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)|
 |[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)|

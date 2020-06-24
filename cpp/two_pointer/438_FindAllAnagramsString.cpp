@@ -7,28 +7,29 @@ using std::unordered_map;
 ****************/
 class Solution {
 public:
-    bool checkInclusion(string s1, string s2) {
+    vector<int> findAnagrams(string s, string p) {
+        vector<int> starts{};
         unordered_map<char, int> need, window;
-        for (auto c : s1) {
+        for (auto c : p) {
             need[c]++;
         }
         int l = 0;
         int r = 0;
         int valid = 0;
-        while (r < s2.size()) {
-            char c_win = s2[r];
+        while (r < s.size()) {
+            char c_s = s[r];
             r++;
-            if (need.count(c_win)) {
-                window[c_win]++;
-                if (need[c_win] == window[c_win]) {
+            if (need.count(c_s)) {
+                window[c_s]++;
+                if (need[c_s] == window[c_s]) {
                     valid++;
                 }
             }
-            while (r - l >= s1.size()) {
+            while (r - l >= p.size()) {
                 if (valid == need.size()) {
-                    return true;
+                    starts.push_back(l);
                 }
-                char c_d = s2[l];
+                char c_d = s[l];
                 l++;
                 if (need.count(c_d)) {
                     if (need[c_d] == window[c_d]) {
@@ -38,6 +39,6 @@ public:
                 }
             }
         }
-        return false;
+        return starts;
     }
 };
