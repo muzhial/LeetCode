@@ -27,6 +27,7 @@ leetcode C++ implementation
 |二叉堆(Binary Heap)|||对排序和优先队列(Priority Queue)|
 |[二叉堆(Binary Heap)](https://github.com/kant-chan/LeetCode/blob/master/cpp/sort/binary_heap.cpp)|||基本框架|
 
+
 ### 链表
 
 | problem     | level | addr| description        |
@@ -39,6 +40,7 @@ leetcode C++ implementation
 |[24. Swap Nodes in Pairs](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/24_SwapNodesPairs.cpp)|Medium|[A](https://leetcode.com/problems/swap-nodes-in-pairs)|不能修改 node 的 val 值|
 |[445. Add Two Numbers II](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/445_AddTwoNumbersII.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers-ii/)|栈解法|
 |[328. Odd Even Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/linked_list/328_OddEvenLinkedList.cpp)|Medium|[A](https://leetcode.com/problems/odd-even-linked-list/description/)||
+
 
 ### 队列和栈
 
@@ -78,18 +80,22 @@ leetcode C++ implementation
 |[88. Merge Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/88_MergeSortedArray.cpp)|Easy|[A](https://leetcode.com/problems/merge-sorted-array/)||
 |[141. Linked List Cycle](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/141_LinkedListCycle.cpp)|Easy|[A](https://leetcode.com/problems/linked-list-cycle/)|快慢指针，判断是否有环|
 |[142. Linked List Cycle II](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/142_LinkedListCycleII.cpp)|Medium|[A](https://leetcode.com/problems/linked-list-cycle-ii/)|快慢指针，环的结点|
-|滑动窗口||||
+|滑动窗口|---|---|---|
 |[76. Minimum Window Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/76_MinimumWindowSubstring.cpp)|Hard|[A](https://leetcode.com/problems/minimum-window-substring/)|基本框架|
 |[567. Permutation in String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/567_PermutationString.cpp)|Medium|[A](https://leetcode.com/problems/permutation-in-string/)|缩小窗口的条件确定|
 |[438. Find All Anagrams in a String](https://github.com/muzhichan/LeetCode/blob/master/cpp/two_pointer/438_FindAllAnagramsString.cpp)|Medium|[A](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|567 的变体|
 |[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/two_pointer/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 
 
-### 回溯(backtracking)
+### 回溯(backtracking)/BFS and DFS
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[46. Permutations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/46_Permutations.cpp)|Medium|[A](https://leetcode.com/problems/permutations/)|基本框架，a collection of distinct integers|
+|[46. Permutations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/46_Permutations.cpp)|Medium|[A](https://leetcode.com/problems/permutations/)|基本框架，排列，元素全异|
+|[77. Combinations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/77_Combinations.cpp)|Medium|[A](https://leetcode.com/problems/combinations/)|C_{n}^{k}，组合|
+|[17. Letter Combinations of a Phone Number](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/17_LetterCombinationsPhoneNumber.cpp)|Medium|[A](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)||
+|[93. Restore IP Addresses](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/93_RestoreIPAddresses.cpp)|Medium|[A](https://leetcode.com/problems/restore-ip-addresses/)||
+|[79. Word Search](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/79_WordSearch.cpp)|Medium|[A](https://leetcode.com/problems/word-search/)||
 
 
 ### Dynamic Programming
