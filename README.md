@@ -94,7 +94,7 @@ leetcode C++ implementation
 |[46. Permutations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/46_Permutations.cpp)|Medium|[A](https://leetcode.com/problems/permutations/)|基本框架，排列，元素全异|
 |[77. Combinations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/77_Combinations.cpp)|Medium|[A](https://leetcode.com/problems/combinations/)|C_{n}^{k}，组合|
 |[17. Letter Combinations of a Phone Number](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/17_LetterCombinationsPhoneNumber.cpp)|Medium|[A](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)||
-|[93. Restore IP Addresses](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/93_RestoreIPAddresses.cpp)|Medium|[A](https://leetcode.com/problems/restore-ip-addresses/)||
+|[93. Restore IP Addresses](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/93_RestoreIPAddresses.cpp)|Medium|[A](https://leetcode.com/problems/restore-ip-addresses/)|注意开头有 0 的情况，题目未说清楚|
 |[79. Word Search](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/79_WordSearch.cpp)|Medium|[A](https://leetcode.com/problems/word-search/)||
 
 
