@@ -24,7 +24,7 @@ leetcode C++ implementation
 |[124. Binary Tree Maximum Path Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/124_BTMaxPathSum.cpp)|Hard|[A](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
 |[701. Insert into a Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/701_InsertBST.cpp)|Medium|[A](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|BST 操作，插入|
 |[450. Delete Node in a BST](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/450_DelNodeBST.cpp)|Medium|[A](https://leetcode.com/problems/delete-node-in-a-bst/)|BST 操作，删除|
-|二叉堆(Binary Heap)|||对排序和优先队列(Priority Queue)|
+|二叉堆(Binary Heap)|||堆排序和优先队列(Priority Queue)|
 |[二叉堆(Binary Heap)](https://github.com/kant-chan/LeetCode/blob/master/cpp/sort/binary_heap.cpp)|||基本框架|
 
 
@@ -94,11 +94,16 @@ leetcode C++ implementation
 |[46. Permutations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/46_Permutations.cpp)|Medium|[A](https://leetcode.com/problems/permutations/)|基本框架，排列，元素全异|
 |[47. Permutations II](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/47_PermutationsII.cpp)|Medium|[A](https://leetcode.com/problems/permutations-ii/)|基本框架，排列，含相同元素|
 |[77. Combinations](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/77_Combinations.cpp)|Medium|[A](https://leetcode.com/problems/combinations/)|C_{n}^{k}，组合|
-|[39. Combination Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/39_CombinationSum.cpp)|Medium|[A](https://leetcode.com/problems/combination-sum/)|组合求和，without duplicates|
-|[40. Combination Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/40_CombinationSumII.cpp)|Medium|[A](https://leetcode.com/problems/combination-sum-ii/)|组合求和，含相同元素|
+|[39. Combination Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/39_CombinationSum.cpp)|Medium|[A](https://leetcode.com/problems/combination-sum/)|组合求和，without duplicates，元素可重复使用|
+|[40. Combination Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/40_CombinationSumII.cpp)|Medium|[A](https://leetcode.com/problems/combination-sum-ii/)|组合求和，含相同元素，每个元素最多使用一次|
+|[216. Combination Sum III](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/216_CombinationSumIII.cpp)|Medium|[A](https://leetcode.com/problems/combination-sum-iii/)||
+|[78. Subsets](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/78_Subsets.cpp)|Medium|[A](https://leetcode.com/problems/subsets/)|子集|
+|[90. Subsets II](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/90_SubsetsII.cpp)|Medium|[A](https://leetcode.com/problems/subsets-ii/)|子集，含相同元素|
 |[17. Letter Combinations of a Phone Number](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/17_LetterCombinationsPhoneNumber.cpp)|Medium|[A](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)||
 |[93. Restore IP Addresses](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/93_RestoreIPAddresses.cpp)|Medium|[A](https://leetcode.com/problems/restore-ip-addresses/)|注意开头有 0 的情况，题目未说清楚|
 |[79. Word Search](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/79_WordSearch.cpp)|Medium|[A](https://leetcode.com/problems/word-search/)|目前时间复杂度高，待优化，参考 discuss|
+|[51. N-Queens](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/51_N_Queens.cpp)|Hard|[A](https://leetcode.com/problems/n-queens/)|N 皇后|
+|[37. Sudoku Solver](https://github.com/kant-chan/LeetCode/blob/master/cpp/backtracking/37_SudokuSolver.cpp)|Hard|[A](https://leetcode.com/problems/sudoku-solver/)|数独|
 
 
 ### Dynamic Programming

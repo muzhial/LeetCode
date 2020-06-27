@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <utility>          // swap
-#include <limits>
+#include <limits>           // numeric_limits<int>::min()
 #include <string>
 #include <vector>
 #include <stack>
