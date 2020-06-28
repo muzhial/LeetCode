@@ -9,33 +9,39 @@ class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {
         string select("123456789");
+        Backtrack(board, select, 0, 0);
     }
-    void Backtrack(vector<vector<char>>& board, string& select, int row, int col) {
-        if (row == board.size()) {
-            return;
+    bool Backtrack(vector<vector<char>>& board, string& select, int row, int col) {
+        int m = 9;
+        int n = 9;
+
+        if (col == n) {
+            return Backtrack(board, select, row + 1, 0);
         }
-        for (int r = 0; r < row; ++r) {
-            for (int c = 0; c < col; ++c) {
-                if (board[r][c] == '.') {
-                    for (auto chr : select) {
-                        if (!Valid(board, r, c, chr)) {
-                            continue;
-                        }
-                        board[r][c] = chr;
-                        Backtrack(board, select, row, col);
-                        board[r][c] = '.';
-                    }
-                }
+        if (row == m) {
+            return true;
+        }
+
+        if (board[row][col] != '.') {
+            return Backtrack(board, select, row, col + 1);
+        }
+        for (auto chr : select) {
+            if (!Valid(board, row, col, chr)) {
+                continue;
             }
+            board[row][col] = chr;
+            if (Backtrack(board, select, row, col + 1)) {
+                return true;
+            }
+            board[row][col] = '.';
         }
+        return false;
     }
     bool Valid(vector<vector<char>>& board, int r, int c, char i) {
         for (int k = 0; k < 9; ++k) {
             if (i == board[r][k]) {
                 return false;
             }
-        }
-        for (int k = 0; k < 9; ++k) {
             if (i == board[k][c]) {
                 return false;
             }

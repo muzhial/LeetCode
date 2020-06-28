@@ -1,13 +1,7 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>  // min
-#include <limits>     // numeric_limits
-#include <unordered_map>
+#include "../common.hpp"
 using namespace std;
 using std::vector;
 using std::unordered_map;
-
 
 /***************
 ****************/
@@ -59,5 +53,3 @@ int coinChange(vector<int>& coins, int amount) {
     }
     return (dp[amount] != amount + 1) ? dp[amount] : -1;
 }
-/***************
-****************/

@@ -110,12 +110,13 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[322. Coin Change](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
-|[300. Longest Increasing Subsequence](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
-|[53. Maximum Subarray](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
-|[0/1 Knapsack Problem](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/KnapsackProblem01.cpp)|||DP 经典问题|
-|[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
-|[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/DP/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+|[322. Coin Change](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
+|[300. Longest Increasing Subsequence](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/300_LongestIncreasingSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-increasing-subsequence/)|基本题型，binary search 阙如|
+|[53. Maximum Subarray](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
+|[0/1 Knapsack Problem](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/KnapsackProblem01.cpp)|||DP 经典问题|
+|[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
+|[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+|[213. House Robber II](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/213_HouseRobberII.cpp)|Medium|[A](https://leetcode.com/problems/house-robber-ii/)|盗贼抢劫，斐波拉契状态方程|
 
 
 ## Other
