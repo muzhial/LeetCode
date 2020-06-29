@@ -117,6 +117,14 @@ leetcode C++ implementation
 |[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
 |[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
 |[213. House Robber II](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/213_HouseRobberII.cpp)|Medium|[A](https://leetcode.com/problems/house-robber-ii/)|盗贼抢劫，斐波拉契状态方程|
+|[envelope mail error pair](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/envelop.cpp)|Medium||错排，信件错排|
+|[64. Minimum Path Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/64_MinimumPathSum.cpp)|Medium|[A](https://leetcode.com/problems/minimum-path-sum/)|矩阵的最小路径和|
+|[62. Unique Paths](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/62_UniquePaths.cpp)|Medium|[A](https://leetcode.com/problems/unique-paths/)|矩阵的总路径数|
+|[413. Arithmetic Slices](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/413_ArithmeticSlices.cpp)|Medium|[A](https://leetcode.com/problems/arithmetic-slices/)|数组中等差递增子区间的个数|
+|[343. Integer Break](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/343_IntegerBreak.cpp)|Medium|[A](https://leetcode.com/problems/integer-break/)|分割整数，分割整数的最大乘积|
+|[279. Perfect Squares](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/279_PerfectSquares.cpp)|Medium|[A](https://leetcode.com/problems/perfect-squares/)|分割整数，按平方数来分割整数|
+|[91. Decode Ways](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/91_DecodeWays.cpp)|Medium|[A](https://leetcode.com/problems/decode-ways/)|分割整数，分割整数构成字母字符串|
+
 
 
 ## Other
