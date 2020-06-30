@@ -9,6 +9,7 @@ public:
     int numDecodings(string s) {
         vector<int> dp(s.size() + 1, 1);
         for (int i = 1; i <= s.size(); ++i) {
+            if (s[0] - '0' == 0) return 0;
             if (i == 1) {
                 dp[i] = 1;
                 continue;
@@ -20,13 +21,21 @@ public:
                 dp[i] = 0;
                 return dp[i];
             }
-            if (pre == 0) {
+            if (d > 26) {
+                if (cur == 0) {
+                    dp[i] = 0;
+                    return dp[i];
+                }
                 dp[i] = dp[i - 1];
+            } else {
+                if (cur == 0) {
+                    dp[i] = dp[i - 2];
+                } else if (cur != 0 && pre == 0) {
+                    dp[i] = dp[i - 1];
+                } else {
+                    dp[i] = dp[i - 1] + dp[i - 2];
+                }
             }
-            if (cur == 0) {
-                dp[i] = dp[i - 2];
-            }
-
         }
         return dp[s.size()];
     }
