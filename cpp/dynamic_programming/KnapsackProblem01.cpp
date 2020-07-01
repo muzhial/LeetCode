@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <limits>
+#include "../common.hpp"
 using namespace std;
 using std::vector;
 
@@ -32,32 +30,6 @@ public:
         }
         return dp[N][W];
     }
-    int knapsack(int W, int N, vector<int>& wt, vector<int>& val) {
-        // base case 已初始化
-        vector<vector<int>> dp(N + 1, vector<int>(W + 1, 0));
-        for (int w = 1; w <= W; w++) {
-            for (int n = 1; n <= N; n++) {
-                if (w - wt[n-1] < 0) {
-                    // 这种情况下只能选择不装入背包
-                    dp[n][w] = dp[n-1][w];
-                } else {
-                    // 装入或者不装入背包，择优
-                    dp[n][w] = std::max(dp[n-1][w - wt[n-1]] + val[n-1], 
-                                        dp[n-1][w]);
-                }
-            }
-        }
 
-        return dp[N][W];
-    }
+    //TODO 状态压缩
 };
-/***************
-****************/
-
-int main() {
-    Solution s;
-    vector<int> wt = {2, 1, 3};
-    vector<int> val = {4, 2, 3};
-    cout << s.knapsack(4, 3, wt, val) << endl;
-    return 0;
-}

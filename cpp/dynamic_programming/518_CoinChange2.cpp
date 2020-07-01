@@ -1,5 +1,4 @@
-#include <iostream>
-#include <vector>
+#include "../common.hpp"
 using namespace std;
 using std::vector;
 
@@ -43,5 +42,3 @@ public:
     }
     //TODO 使用二维状态方法 熟练度
 };
-/***************
-****************/

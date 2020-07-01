@@ -122,11 +122,15 @@ leetcode C++ implementation
 |[646. Maximum Length of Pair Chain](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/646_MaximumLengthPairChain.cpp)|Medium|[A](https://leetcode.com/problems/maximum-length-of-pair-chain/)|最长递增子序列，一组整数对能够构成的最长链|
 |[376. Wiggle Subsequence](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/376_WiggleSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/wiggle-subsequence/)|最长递增子序列，最长摆动子序列|
 |[1143. Longest Common Subsequence](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/1143_LongestCommonSubsequence.cpp)|Medium|[A](https://leetcode.com/problems/longest-common-subsequence/)|最长公共子序列|
-|[322. Coin Change](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
 |[53. Maximum Subarray](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/53_MaximumSubarray.cpp)|Easy|[A](https://leetcode.com/problems/maximum-subarray/)|基本题型，improve to O(n)，可状态压缩。滑动窗口不可行|
 |[0/1 Knapsack Problem](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/KnapsackProblem01.cpp)|||DP 经典问题|
 |[416. Partition Equal Subset Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/416_PartitionEqualSubsetSum.cpp)|Medium|[A](https://leetcode.com/problems/partition-equal-subset-sum/)|子集背包问题|
+|[494. Target Sum](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/494_TargetSum.cpp)|Medium|[A](https://leetcode.com/problems/target-sum/)|改变一组数的正负号使得它们的和为一给定数|
+|[474. Ones and Zeroes](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/474_OnesandZeroes.cpp)|Medium|[A](https://leetcode.com/problems/ones-and-zeroes/)|01 字符构成最多的字符串|
+|[322. Coin Change](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/322_CoinChange.cpp)|Medium|[A](https://leetcode.com/problems/coin-change/)|动归基本题型|
 |[518. Coin Change 2](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/518_CoinChange2.cpp)|Medium|[A](https://leetcode.com/problems/coin-change-2/)|完全背包问题|
+|[121. Best Time to Buy and Sell Stock](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/121_BestTimeBuySellStock.cpp)|Easy|[A](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|股票买卖问题，只允许一次交易|
+|[122. Best Time to Buy and Sell Stock II](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/122_BestTimeBuySellStockII.cpp)|Easy|[A](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|股票买卖问题，允许无数次交易|
 
 
 ## Other
