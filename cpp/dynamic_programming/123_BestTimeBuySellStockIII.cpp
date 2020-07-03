@@ -27,3 +27,22 @@ public:
         return dp[n - 1][k][0];
     }
 };
+
+// 状态压缩
+class SolutionI {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        int k = 2;
+        if (n == 0) return 0;
+        int dp_10 = 0, dp_11 = std::numeric_limits<int>::min();
+        int dp_20 = 0, dp_21 = std::numeric_limits<int>::min();
+        for (int i = 0; i < n; ++i) {
+            dp_20 = std::max(dp_20, dp_21 + prices[i]);
+            dp_21 = std::max(dp_21, dp_10 - prices[i]);
+            dp_10 = std::max(dp_10, dp_11 + prices[i]);
+            dp_11 = std::max(dp_11, - prices[i]);
+        }
+        return dp_20;
+    }
+};
