@@ -137,7 +137,7 @@ leetcode C++ implementation
 |[188. Best Time to Buy and Sell Stock IV](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/188_BestTimeBuySellStockIV.cpp)|Hard|[A](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|股票买卖问题，k = any but not 1, 2 and infinity|
 |[583. Delete Operation for Two Strings](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/583_DeleteOperationTwoStrings.cpp)|Medium|[A](https://leetcode.com/problems/delete-operation-for-two-strings/)|字符串编辑|
 |[72. Edit Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/72_EditDistance.cpp)|Hard|[A](https://leetcode.com/problems/edit-distance/)|编辑距离|
-|[650. 2 Keys Keyboard](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/650_2KeysKeyboard.cpp)|Medium|[A](https://leetcode.com/problems/2-keys-keyboard/)|复制粘贴字符|
+|[650. 2 Keys Keyboard](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/650_2KeysKeyboard.cpp)|Medium|[A](https://leetcode.com/problems/2-keys-keyboard/)|复制粘贴字符，素数分解|
 
 
 ## 贪心思想
