@@ -140,6 +140,13 @@ leetcode C++ implementation
 |[650. 2 Keys Keyboard](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/650_2KeysKeyboard.cpp)|Medium|[A](https://leetcode.com/problems/2-keys-keyboard/)|复制粘贴字符|
 
 
+## 贪心思想
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[455. Assign Cookies](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/455_AssignCookies.cpp)|Easy|[A](https://leetcode.com/problems/assign-cookies/)||
+
+
 ## Other
 
 | problem       | level | addr|
