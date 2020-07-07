@@ -9,6 +9,7 @@
 #include <stack>
 #include <queue>
 #include <unordered_map>
+#include <list>
 #include <algorithm>        // min, max
 #include <cmath>            // abs
 

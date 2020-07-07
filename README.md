@@ -144,7 +144,10 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[455. Assign Cookies](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/455_AssignCookies.cpp)|Easy|[A](https://leetcode.com/problems/assign-cookies/)||
+|[455. Assign Cookies](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/455_AssignCookies.cpp)|Easy|[A](https://leetcode.com/problems/assign-cookies/)|贪心策略为全局最优策略，即选用|
+|[435. Non-overlapping Intervals](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/435_NonoverlappingIntervals.cpp)|Medium|[A](https://leetcode.com/problems/non-overlapping-intervals/)||
+|[452. Minimum Number of Arrows to Burst Balloons](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/452_MinimumNumberArrowsBurstBalloons.cpp)|Medium|[A](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)||
+|[406. Queue Reconstruction by Height](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/406_QueueReconstructionHeight.cpp)|Medium|[A](https://leetcode.com/problems/queue-reconstruction-by-height/)||
 
 
 ## Other
