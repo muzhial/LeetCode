@@ -12,8 +12,7 @@ public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
         int sz = people.size();
         if (sz == 0 || people[0].size() == 0) return vector<vector<int>> {};
-        // vector<vector<int>> res(sz, vector<int>(2, 0));
-        list<vector<int>> res;
+        vector<vector<int>> res;
         std::sort(people.begin(), people.end(), [](vector<int> a, vector<int> b) -> bool {
             return a[0] == b[0] ? b[1] > a[1] : a[0] > b[0];
         });

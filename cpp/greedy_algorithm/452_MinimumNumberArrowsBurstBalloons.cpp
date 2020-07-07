@@ -22,3 +22,27 @@ public:
         return cnt;
     }
 };
+
+int findMinArrowShots(vector<vector<int>>& points) {
+    if (!points.size()) return 0;
+    std::sort(points.begin(), points.end());
+    int count = 1, last = points[0][1];
+    for (int i = 1; i < points.size(); i++)
+    {
+        if (last > points[i][1]) {
+            last = points[i][1];
+        } else if (last < points[i][0]) {
+            last = points[i][1];
+            count++;
+        }
+    }
+    return count;
+}
+
+int main() {
+    vector<vector<int>> v{{7,0}, {4,4}, {7,1} ,{5,0}, {6,1}, {5,2}};
+    std::sort(v.begin(), v.end());
+    for (auto& vi : v) {
+        cout << vi[0] << " " << vi[1] << endl;
+    }
+}

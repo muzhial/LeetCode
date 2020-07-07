@@ -52,6 +52,13 @@ leetcode C++ implementation
 |[739. Daily Temperatures](https://github.com/muzhichan/LeetCode/blob/master/cpp/queue_stack/739_DailyTemperatures.cpp)|Medium|[A](https://leetcode.com/problems/daily-temperatures/)|数组中元素与下一个比它大的元素之间的距离|
 
 
+### 位运算
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[461. Hamming Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/461_HammingDistance.cpp)|Easy|[A](https://leetcode.com/problems/hamming-distance/)||
+
+
 ## 算法
 
 ### binary search
