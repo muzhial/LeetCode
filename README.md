@@ -56,8 +56,10 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[461. Hamming Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/461_HammingDistance.cpp)|Easy|[A](https://leetcode.com/problems/hamming-distance/)||
-
+|[461. Hamming Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/461_HammingDistance.cpp)|Easy|[A](https://leetcode.com/problems/hamming-distance/)|n & (n-1)|
+|[136. Single Number](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/136_SingleNumber.cpp)|Easy|[A](https://leetcode.com/problems/single-number/)|异或|
+|[268. Missing Number](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/268_MissingNumber.cpp)|Easy|[A](https://leetcode.com/problems/missing-number/)|n ^ n = 0|
+|[260. Single Number III](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/260_SingleNumberIII.cpp)|Medium|[A](https://leetcode.com/problems/single-number-iii/)||
 
 ## 算法
 
