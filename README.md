@@ -56,10 +56,19 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[461. Hamming Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/461_HammingDistance.cpp)|Easy|[A](https://leetcode.com/problems/hamming-distance/)|n & (n-1)|
+|[461. Hamming Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/461_HammingDistance.cpp)|Easy|[A](https://leetcode.com/problems/hamming-distance/)|n&(n-1)|
 |[136. Single Number](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/136_SingleNumber.cpp)|Easy|[A](https://leetcode.com/problems/single-number/)|异或|
-|[268. Missing Number](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/268_MissingNumber.cpp)|Easy|[A](https://leetcode.com/problems/missing-number/)|n ^ n = 0|
-|[260. Single Number III](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/260_SingleNumberIII.cpp)|Medium|[A](https://leetcode.com/problems/single-number-iii/)||
+|[268. Missing Number](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/268_MissingNumber.cpp)|Easy|[A](https://leetcode.com/problems/missing-number/)|n^n = 0|
+|[260. Single Number III](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/260_SingleNumberIII.cpp)|Medium|[A](https://leetcode.com/problems/single-number-iii/)|n^n and n&(-n)|
+|[190. Reverse Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/190_ReverseBits.cpp)|Easy|[A](https://leetcode.com/problems/reverse-bits/)||
+|[swap_two_nums](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/swap_two_nums.cpp)|Easy||不用额外变量交换两个整数|
+|[231. Power of Two](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/231_PowerofTwo.cpp)|Easy|[A](https://leetcode.com/problems/power-of-two/)|判断一个数是不是 2 的 n 次方|
+|[342. Power of Four](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/342_PowerofFour.cpp)|Easy|[A](https://leetcode.com/problems/power-of-four/)|判断一个数是不是 4 的 n 次方|
+|[693. Binary Number with Alternating Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/693_BinaryNumberwithAlternatingBits.cpp)|Easy|[A](https://leetcode.com/problems/binary-number-with-alternating-bits/)|判断一个数的位级表示是否不会出现连续的 0 和 1|
+|[476. Number Complement](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/476_NumberComplement.cpp)|Easy|[A](https://leetcode.com/problems/number-complement/)|补码，不含首 0|
+|[371. Sum of Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/371_SumTwoIntegers.cpp)|Easy|[A](https://leetcode.com/problems/sum-of-two-integers/)|整数的加法|
+|[338. Counting Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/338_CountingBits.cpp)|Medium|[A](https://leetcode.com/problems/counting-bits/)||
+
 
 ## 算法
 

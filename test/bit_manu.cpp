@@ -12,6 +12,7 @@ int shift() {
     int vii = 255;
     cout << (vi >> 2) << endl;    // 0
     cout << (uvi << 31) << endl;  // 2147483648
+    cout << (uvi << 30) << endl;
     cout << (vi << 30) << endl;   // 1073741824
     cout << (vi << 31) << endl;   // -2147483648
     cout << (vi << 34) << endl;   // 4 warning: left shift count >= width of type [enabled by default]
