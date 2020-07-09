@@ -67,7 +67,7 @@ leetcode C++ implementation
 |[693. Binary Number with Alternating Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/693_BinaryNumberwithAlternatingBits.cpp)|Easy|[A](https://leetcode.com/problems/binary-number-with-alternating-bits/)|判断一个数的位级表示是否不会出现连续的 0 和 1|
 |[476. Number Complement](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/476_NumberComplement.cpp)|Easy|[A](https://leetcode.com/problems/number-complement/)|补码，不含首 0|
 |[371. Sum of Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/371_SumTwoIntegers.cpp)|Easy|[A](https://leetcode.com/problems/sum-of-two-integers/)|整数的加法|
-|[338. Counting Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/338_CountingBits.cpp)|Medium|[A](https://leetcode.com/problems/counting-bits/)||
+|[338. Counting Bits](https://github.com/muzhichan/LeetCode/blob/master/cpp/bit_op/338_CountingBits.cpp)|Medium|[A](https://leetcode.com/problems/counting-bits/)|DP|
 
 
 ## 算法
@@ -105,7 +105,7 @@ leetcode C++ implementation
 |[3. Longest Substring Without Repeating Characters](https://github.com/kant-chan/LeetCode/blob/master/cpp/two_pointer/3_LongestSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-substring-without-repeating-characters/)||
 
 
-### 回溯(backtracking)/BFS and DFS
+### 回溯(backtracking) && BFS && DFS
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
@@ -156,9 +156,10 @@ leetcode C++ implementation
 |[583. Delete Operation for Two Strings](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/583_DeleteOperationTwoStrings.cpp)|Medium|[A](https://leetcode.com/problems/delete-operation-for-two-strings/)|字符串编辑|
 |[72. Edit Distance](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/72_EditDistance.cpp)|Hard|[A](https://leetcode.com/problems/edit-distance/)|编辑距离|
 |[650. 2 Keys Keyboard](https://github.com/muzhichan/LeetCode/blob/master/cpp/dynamic_programming/650_2KeysKeyboard.cpp)|Medium|[A](https://leetcode.com/problems/2-keys-keyboard/)|复制粘贴字符，素数分解|
+|[10. Regular Expression Matching](https://github.com/kant-chan/LeetCode/blob/master/cpp/dynamic_programming/10_RegularMatch.cpp)|Hard|[A](https://leetcode.com/problems/regular-expression-matching/)|正则表达式|
 
 
-## 贪心思想
+### 贪心思想
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
@@ -168,12 +169,17 @@ leetcode C++ implementation
 |[406. Queue Reconstruction by Height](https://github.com/muzhichan/LeetCode/blob/master/cpp/greedy_algorithm/406_QueueReconstructionHeight.cpp)|Medium|[A](https://leetcode.com/problems/queue-reconstruction-by-height/)||
 
 
-## Other
+### 数学
 
-| problem       | level | addr|
-|:--------------|:------|:----|
-|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)|
-|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)|
-|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)|
-|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)|
-|[10. Regular Expression Matching](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/10_RegularMatch.cpp)|Hard|[A](https://leetcode.com/problems/regular-expression-matching/)|
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+
+
+## Top Interview Questions
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)||
+|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
+|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
+|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||
