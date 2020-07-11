@@ -173,13 +173,13 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-
+|[204. Count Primes](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/204_CountPrimes.cpp)|Easy|[A](https://leetcode.com/problems/count-primes/)|埃拉托斯特尼筛法|
 
 ## Top Interview Questions
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)||
-|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
-|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
-|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/step_by_order/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||
+|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)||
+|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
+|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
+|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||

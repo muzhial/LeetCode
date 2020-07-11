@@ -25,7 +25,17 @@ int coinChange(vector<int>& coins, int amount) {
     return dp[amount] != amount + 1 ? dp[amount] : -1;
 }
 
+void test_longlong() {
+    int a = 1;
+    cout << (a << 31) << endl;
+    long long i = (a << 30) * (a << 30);
+    cout << i << endl;
+    long long ii = (static_cast<long long>(a) << 30) * (a << 30);
+    cout << ii << endl;
+}
+
 int main()
 {
+    test_longlong();
     return 0;
 }
