@@ -36,6 +36,9 @@ void test_longlong() {
 
 int main()
 {
-    test_longlong();
+    int i = 1;
+    cout << (i << 31) << endl;  // -2147483648
+    // test_longlong();
+    cout << static_cast<char>('a' + 2) << endl;
     return 0;
 }

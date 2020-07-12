@@ -174,6 +174,11 @@ leetcode C++ implementation
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
 |[204. Count Primes](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/204_CountPrimes.cpp)|Easy|[A](https://leetcode.com/problems/count-primes/)|埃拉托斯特尼筛法|
+|[gcd and lcm](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/gcd_lcm.cpp)|||最大公约数，最小公倍数|
+|[504. Base 7](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/504_Base7.cpp)|Easy|[A](https://leetcode.com/problems/base-7/)|进制转换|
+|[405. Convert a Number to Hexadecimal](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/405_ConvertNumberHexadecimal.cpp)|Easy|[A](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|进制转换|
+|[168. Excel Sheet Column Title](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/168_ExcelSheetColumnTitle.cpp)|Easy|[A](https://leetcode.com/problems/excel-sheet-column-title/)|进制转换|
+
 
 ## Top Interview Questions
 
