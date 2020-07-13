@@ -178,6 +178,10 @@ leetcode C++ implementation
 |[504. Base 7](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/504_Base7.cpp)|Easy|[A](https://leetcode.com/problems/base-7/)|进制转换|
 |[405. Convert a Number to Hexadecimal](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/405_ConvertNumberHexadecimal.cpp)|Easy|[A](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|进制转换|
 |[168. Excel Sheet Column Title](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/168_ExcelSheetColumnTitle.cpp)|Easy|[A](https://leetcode.com/problems/excel-sheet-column-title/)|进制转换|
+|[172. Factorial Trailing Zeroes](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/172_FactorialTrailingZeroes.cpp)|Easy|[A](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘|
+|[67. Add Binary](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/67_AddBinary.cpp)|Easy|[A](https://leetcode.com/problems/add-binary/)|字符串加法减法|
+|[367. Valid Perfect Square](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/367_ValidPerfectSquare.cpp)|Easy|[A](https://leetcode.com/problems/valid-perfect-square/)|平方数|
+|[326. Power of Three](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/326_PowerofThree.cpp)|Easy|[A](https://leetcode.com/problems/power-of-three/)|3 的 n 方，非 loop|
 
 
 ## Top Interview Questions
