@@ -1,19 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <algorithm>
-using namespace std;
+#define TREENODE
+#include "../common.hpp"
 using std::vector;
 using std::unordered_map;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 /***************
  * 元素不重复，如果重复的话如何解？
 ****************/
@@ -75,5 +64,3 @@ public:
         return node;
     }
 };
-/***************
-****************/

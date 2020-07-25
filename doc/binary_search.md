@@ -1,8 +1,6 @@
 # Binary Search
 
-**比 O(n) 更优的时间复杂度几乎只能是 O(logn) 的二分法。**
-
-while-loop 方式实现：[github](https://github.com/muzhichan/LeetCode/blob/master/cpp/BinarySearch.cpp)
+比 O(n) 更优的时间复杂度几乎只能是 O(logn) 的二分法。
 
 ## 基本框架
 

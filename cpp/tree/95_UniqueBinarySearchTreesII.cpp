@@ -1,14 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<stack>
-
+#define TREENODE
+#include "../common.hpp"
 using std::vector;
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-};
 
 /***************
 * 分析：
@@ -55,5 +47,3 @@ public:
         return GenTrees(1, n);
     }
 };
-/***************
-****************/

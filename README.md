@@ -7,21 +7,21 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[binary tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/BinaryTree.cpp)|||
-|[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/94_BinaryTreeInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-inorder-traversal/)|非递归，栈方法|
-|[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/95_UniqueBinarySearchTreesII.cpp)|Medium|[A](https://leetcode.com/problems/unique-binary-search-trees-ii/)|BST，递归解法，动归阙如|
-|[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/98_ValidateBinarySearchTree.cpp)|Medium|[A](https://leetcode.com/problems/validate-binary-search-tree/)|BST|
-|[99. Recover Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/99_RecoverBinarySearchTree.cpp)|Hard|[A](https://leetcode.com/problems/recover-binary-search-tree/)|BST，space O(1)|
+|[94. Binary Tree Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/94_BinaryTreeInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-inorder-traversal/)|非递归，栈方法，DFS|
 |[111. Minimum Depth of Binary Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/111_MinimumDepthBinaryTree.cpp)|Easy|[A](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|二叉树深度，BFS|
 |[102. Binary Tree Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/102_BinaryTreeLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-level-order-traversal/)|二叉树遍历，BFS|
 |[103. Binary Tree Zigzag Level Order Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/103_BinaryTreeZigzagLevelOrderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|二叉树遍历，BFS|
-|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/105_ConstructBinaryTreePreorderInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|二叉树构造|
-|[106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/106_ConstructBinaryTreeInorderPostorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|二叉树构造|
-|[108. Convert Sorted Array to Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/108_ConvertSortedArrayBST.cpp)|Easy|[A](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|BST 构造，ref.95|
-|[113. Path Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/113_PathSumII.cpp)|Medium|[A](https://leetcode.com/problems/path-sum-ii/)|binary tree，DFS|
-|[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|指针，in-place，递归深入|
-|[117_NextRightPointersII](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/117_NextRightPointersII.cpp)|Medium|[A](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|指针，非递归实现|
+|[105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/105_ConstructBinaryTreePreorderInorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|二叉树构造，前序 + 中序|
+|[106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/106_ConstructBinaryTreeInorderPostorderTraversal.cpp)|Medium|[A](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|二叉树构造，中序 + 后序|
+|[113. Path Sum II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/113_PathSumII.cpp)|Medium|[A](https://leetcode.com/problems/path-sum-ii/)|二叉树，DFS|
+|[117_NextRightPointersII](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/117_NextRightPointersII.cpp)|Medium|[A](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|二叉树，指针，非递归实现|
+|[114. Flatten Binary Tree to Linked List](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/114_FlattenBTList.cpp)|Medium|[A](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|二叉树，指针，in-place，递归深入|
 |[124. Binary Tree Maximum Path Sum](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/124_BTMaxPathSum.cpp)|Hard|[A](https://leetcode.com/problems/binary-tree-maximum-path-sum/)||
+|二叉查找树(Binary Search Tree)||||
+|[108. Convert Sorted Array to Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/108_ConvertSortedArrayBST.cpp)|Easy|[A](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|BST 构造，ref.95|
+|[95. Unique Binary Search Trees II](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/95_UniqueBinarySearchTreesII.cpp)|Medium|[A](https://leetcode.com/problems/unique-binary-search-trees-ii/)|BST，递归解法，动归阙如|
+|[98. Validate Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/98_ValidateBinarySearchTree.cpp)|Medium|[A](https://leetcode.com/problems/validate-binary-search-tree/)|BST|
+|[99. Recover Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/99_RecoverBinarySearchTree.cpp)|Hard|[A](https://leetcode.com/problems/recover-binary-search-tree/)|BST，space O(1)|
 |[701. Insert into a Binary Search Tree](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/701_InsertBST.cpp)|Medium|[A](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|BST 操作，插入|
 |[450. Delete Node in a BST](https://github.com/kant-chan/LeetCode/blob/master/cpp/tree/450_DelNodeBST.cpp)|Medium|[A](https://leetcode.com/problems/delete-node-in-a-bst/)|BST 操作，删除|
 |二叉堆(Binary Heap)|||堆排序和优先队列(Priority Queue)|
@@ -76,9 +76,8 @@ leetcode C++ implementation
 
 | problem      | level | addr| description      |
 |:-------------|:------|:----|:-----------------|
-|[basic binary search](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/BinarySearch.cpp)|||基本框架|
-|[34. Find First and Last Position of Element in Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)||
-|[4. Median of Two Sorted Arrays](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)||
+|[34. Find First and Last Position of Element in Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/34_FindFirstLastPosition.cpp)|Medium|[A](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|左边界和右边界|
+|[4. Median of Two Sorted Arrays](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/4_MedianofTwoSortedArrays.cpp)|Hard|[A](https://leetcode.com/problems/median-of-two-sorted-arrays/)|中位数|
 |[29. Divide Two Integers](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/29_DivideTwoIntegers.cpp)|Medium|[A](https://leetcode.com/problems/divide-two-integers/)|位操作|
 |[33. Search in Rotated Sorted Array](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/33_SearchRotatedSortedArray.cpp)|Medium|[A](https://leetcode.com/problems/search-in-rotated-sorted-array/)|画图辅助思考|
 |[50. Pow(x, n)](https://github.com/muzhichan/LeetCode/blob/master/cpp/binary_search/50_powx_n.cpp)|Medium|[A](https://leetcode.com/problems/powx-n/)|可写得更简洁|

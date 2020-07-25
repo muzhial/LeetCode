@@ -1,19 +1,7 @@
-#include <iostream>
-#include <vector>
-#include <stack>
-#include <limits>
-using namespace std;
+#define TREENODE
+#include "../common.hpp"
 using std::vector;
 using std::stack;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 
 /***************
 * 注意：
@@ -26,7 +14,7 @@ class Solution {
 public:
     bool isValidBST(TreeNode* root) {
         stack<TreeNode*> s_n;
-        int first = numeric_limits<int>::min();
+        int first = std::numeric_limits<int>::min();
         // 第一个值为 MIN 情况
         int flag = true;
 
@@ -55,5 +43,3 @@ public:
         return true;
     }
 };
-/***************
-****************/

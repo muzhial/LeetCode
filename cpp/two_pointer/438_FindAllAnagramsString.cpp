@@ -1,6 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
+using std::vector;
 using std::unordered_map;
 
 /***************

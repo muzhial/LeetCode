@@ -1,5 +1,5 @@
 #include "../common.hpp"
-using namespace std;
+using std::vector;
 
 /***************
 ****************/

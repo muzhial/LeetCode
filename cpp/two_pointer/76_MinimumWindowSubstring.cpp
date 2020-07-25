@@ -1,5 +1,4 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 using std::unordered_map;
 
@@ -12,7 +11,7 @@ public:
         for (auto c : t) {
             needs[c]++;
         }
-        int MAX = numeric_limits<int>::max();
+        int MAX = std::numeric_limits<int>::max();
         int l = 0;
         int r = 0;
         int valid = 0;

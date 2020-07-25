@@ -1,4 +1,7 @@
-#include <iostream>
+#include<iostream>
+#include<vector>
+#include<stack>
+#include <limits>
 
 class Base {
 public:
@@ -24,28 +27,54 @@ private:
     int len_;
 };
 
-void TestLambda() {
-    int x = 11;
-    int y = 13;
+/*
+ * inplace
+**/
+template<typename T>
+void SelectionSort(std::vector<T>& arr)
+{
+    typedef typename std::vector<T>::size_type size_type;
+    if (arr.empty())
+        std::cout << "The sorting array is empty" << std::endl;
+    else {
+        for (size_type i=0; i < arr.size() - 1; i++) {
+            size_type min_idx = i;
+            for (size_type j=i+1; j < arr.size(); j++) {
+                if (arr[min_idx] > arr[j]) {
+                    min_idx = j;
+                }
+            }
+            if (i != min_idx) {
+                T tmp = arr[i];
+                arr[i] = arr[min_idx];
+                arr[min_idx] = tmp;
+            }
+        }
+    }
+}
 
-    auto fl = [&x, &y]() mutable -> void {
-        x = 1;
-        std::cout << x << " " << y << std::endl;
-    };
-    x = x ^ y;
-    y = x ^ y;
-    x = x ^ y;
-    std::cout << x << " " << y << std::endl;
-    fl();
-    std::cout << x << " " << y << std::endl;
+/*
+ * in-place
+**/
+template<typename T>
+const std::vector<T>& BubbleSort(std::vector<T>& arr)
+{
+    for (decltype(arr.size()) i=arr.size()-1; i > 0; i--) {
+        for (decltype(arr.size()) j=0; j < i; j++) {
+            if (arr[j] > arr[j+1]) {
+                T tmp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tmp;
+            }
+        }
+    }
+    return arr;
 }
 
 int main() {
     // Base b = {1, 2};
     // Base b1;
     // b1 = b;
-
-    TestLambda();
 
     return 0;
 }

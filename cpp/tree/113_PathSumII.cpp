@@ -1,18 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <stack>
-using namespace std;
+#define TREENODE
+#include "../common.hpp"
 using std::vector;
 using std::stack;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 /***************
  * [分析]
  * 1. depth-first search(preorder) + stack(使用 vector 方便数据记录)
@@ -41,5 +31,3 @@ public:
         s_sum -= root->val;
     }
 };
-/***************
-****************/

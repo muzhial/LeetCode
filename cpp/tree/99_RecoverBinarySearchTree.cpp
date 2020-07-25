@@ -1,20 +1,8 @@
-#include <iostream>
-#include <limits>
-#include <utility>  // swap
-#include <vector>
-#include <stack>
-using namespace std;
+#define TREENODE
+#include "../common.hpp"
 using std::vector;
 using std::stack;
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
 /***************
 * A solution using O(n) space is pretty straight forward.
 * Could you devise a constant space solution?
@@ -35,7 +23,7 @@ public:
             if (second_ == nullptr) {
                 second_ = cur_;
             }
-            swap(first_->val, second_->val);
+            std::swap(first_->val, second_->val);
         }  
     }
     // 递归中序遍历，栈方式无法保证常数项空间复杂度
@@ -65,5 +53,3 @@ private:
     TreeNode* cur_;
     bool flag_;
 };
-/***************
-****************/
