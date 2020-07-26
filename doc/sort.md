@@ -56,8 +56,6 @@ vector<int>& SelectionSort(vector<int>& arr)
 
 ## 插入排序
 
-时间复杂度为 O(n^2)，空间复杂为 O(1)，in-place，不稳定。
-
 ```cpp
 vector<int> InsertionSort(vector<int>& arr)
 {
@@ -111,169 +109,31 @@ class Sort:
 
 `cpp` 版本
 ```cpp
-template <typename T>
-class Sort {
-public:
-    typedef typename std::vector<T>::size_type size_type;
-    typedef typename std::vector<T>::iterator iter;
-
-    void MergeSortMain(std::vector<T>& arr)
-    {
-        if (arr.empty())
-            std::cout << "The array is empty" << std::endl;
-        else {
-            auto first = arr.begin();
-            auto last = arr.end();
-            MergeSort(arr, first, last);
-        }
-    }
-
-    void MergeSort(std::vector<T>& arr, iter first, iter last)
-    {
-        // the recursive return
-        if (first + 1 == last) {
-            return;
-        }
-        // the left branch start and end index of iterator
-        auto l_first = first;
-        // exclude end end iterator
-        auto l_last = first + (last - first) / 2;
-        MergeSort(arr, l_first, l_last);
-        
-        auto r_first = l_last;
-        // exclude end iterator
-        auto r_last = last;
-        MergeSort(arr, r_first, r_last);
-        // naive in-place
-        // SortBiSubArray(arr, l_first, r_first, r_last);
-        // not in-place
-        NotSortBiSubArray(arr, l_first, r_first, r_last);
-    }
-
-    void SortBiSubArray(std::vector<T>& arr, iter first, iter mid, iter last)
-    {
-        /*
-         * in-place
-         * exclude the end of iterator
-        **/
-        iter i = first, j = mid;
-        while (i != mid && j != last) {
-            if (*i > *j) {
-                T tmp = *j;
-                for (iter k = mid; k != i; --k)
-                    *k = *(k - 1);
-                *i = tmp;
-                ++i;
-                ++mid;
-                ++j;
-            }
-            else {
-                ++i;
-            }
-        }
-    }
-
-    void NotSortBiSubArray(std::vector<T>& arr, iter first, iter mid, iter last)
-    {
-        /*
-         * Not in-place
-         * */
-        std::vector<T> tmp_;
-        iter i = first, j = mid;
-        while (i != mid && j != last) {
-            if (*i > *j) {
-                tmp_.push_back(*j);
-                ++j;
-            }
-            else {
-                tmp_.push_back(*i);
-                ++i;
-            }
-        }
-        if (i == mid) {
-            for (; j != last; ++j)
-                tmp_.push_back(*j);
-        }
-        else {
-            for (; i != mid; ++i)
-                tmp_.push_back(*i);
-        }
-        for (size_type k = 0; k < tmp_.size() && first != last; k++) {
-            *first = tmp_.at(k);
-            ++first;
-        }
-    }
-};
-
-
-// ********* bellow is only merging 
-// ********* operator on tow group sorted vector
-void inplace_merge_subscript()
-{
-    /*
-     * just test in-place merge
-     * index not iterator
-     */
-    typedef typename std::vector<int>::size_type size_type;
-
-    std::vector<int> v_i{1, 4, 9, 2, 3, 5, 10};
-    size_type first = 0, mid = v_i.size() / 2, last = v_i.size() - 1;   
-    size_type i = first, j = mid;
-    // i index the left part of vector
-    // j index the right part of vector
-    while (i < mid && j <= last) {
-        if (v_i[i] > v_i[j]) {
-            int tmp = v_i[j];
-            /*
-             * CATION: if type is unsigned, be careful that
-             *         negative converted to positive when minus
-             * */
-            for (size_type idx = mid; idx > i; idx--) {
-                v_i.at(idx) = v_i.at(idx-1);
-            }
-            v_i[i] = tmp;
+void Merge(vector<int>& arr, int l, int m, int r) {
+    int i = l;
+    int j = m + 1;
+    while (i <= m && j <= r) {
+        if (arr[i] < arr[j]) {
             i++;
-            mid++;
+        } else {
+            for (int k = j; k > i; k--) {
+                std::swap(arr[k], arr[k - 1]);
+            }
+            i++;
+            m++;
             j++;
         }
-        else {
-            i++;
-        }
     }
-    
-    for (auto &i : v_i)
-        std::cout << " " << i;
-    std::cout << std::endl;
 }
-
-void inplace_merge_iter()
-{
-    typedef typename std::vector<int>::iterator iter_t;
-
-    std::vector<int> v_i{0, 2, 6, 1, 1, 2, 3, 9};
-    iter_t first = v_i.begin();
-    iter_t last = v_i.end();
-    iter_t mid = first + 3;
-    //iter_t mid = first + (last - first) / 2;
-    iter_t i = first, j = mid;
-    while (i != mid && j != last) {
-        if (*i > *j) {
-            int tmp = *j;
-            for (iter_t k = mid; k != i; --k)
-                *k = *(k - 1);
-            *i = tmp;
-            ++i;
-            ++mid;
-            ++j;
-        }
-        else {
-            ++i;
-        }
+// MergeSort(arr, 0, arr.size() - 1);
+void MergeSort(vector<int>& arr, int l, int u) {
+    if (l >= u) {
+        return;
     }
-    // output the result vector
-    for (auto &i : v_i)
-        std::cout << " " << i;
-    std::cout << std::endl;
+    int m = l + (u - l) / 2;
+    MergeSort(arr, l, m);
+    MergeSort(arr, m + 1, u);
+    Merge(arr, l, m, u);
 }
 ```
 
@@ -310,52 +170,44 @@ def qsort_in(alist, l, u):
 `cpp` 版本
 
 ```cpp
-void Qsort_out(vector<int> &arr, vector<int>& ret)
-{
-    if (arr.size() <= 0)
+void QsortOut(vector<int>& arr, vector<int>& ret) {
+    if (arr.size() <= 0) {
         return;
-
-    int pivot = arr[0];
+    }
     vector<int> l_arr;
     vector<int> r_arr;
-
-    for (auto i = arr.begin() + 1; i != arr.end(); ++i) {
-        if (*i < pivot)
-            l_arr.push_back(*i);
-        else
-            r_arr.push_back(*i);
+    int pivot = arr[0];
+    for (int i = 1; i < arr.size(); i++) {
+        if (arr[i] < pivot) {
+            l_arr.push_back(arr[i]);
+        } else {
+            r_arr.push_back(arr[i]);
+        }
     }
-
-    Qsort_out(l_sub_arr, ret);
+    QsortOut(l_arr, ret);
     ret.push_back(pivot);
-    Qsort_out(r_sub_arr, ret);
+    QsortOut(r_arr, ret);
 }
 
-
-void Qsort_in(vector<int> &arr, vector<int>::iterator l, vector<int>::iterator u)
-{
-    if (l == u)
+void QsortIn(vector<int>& arr, int low, int up) {
+    if (low >= up) {
         return;
-
-    vector<int>::iterator m = l;
-    for (auto i = l + 1; i != u; ++i) {
-        if (*i < *l) {
-            ++m;
+    }
+    int m = low;
+    for (int i = low + 1; i <= up; ++i) {
+        if (arr[i] < arr[low]) {
+            m++;
             if (m != i) {
-                T tmp = *m;
-                *m = *i;
-                *i = tmp;
+                std::swap(arr[i], arr[m]);
             }
         }
     }
-    int tmp_ = *l;
-    *l = *m;
-    *m = tmp_;
-
-    Qsort_in(arr, l, m);
-    Qsort_in(arr, m+1, u);
+    std::swap(arr[low], arr[m]);
+    QsortIn(arr, low, m - 1);
+    QsortIn(arr, m + 1, up);
 }
 ```
+
 
 ## 堆排序
 
@@ -374,9 +226,6 @@ public:
     int size() {
         return pq_.size();
     }
-    int max() {
-        return pq_[1];
-    }
     void exch(int i, int j) {
         std::swap(pq_[i], pq_[j]);
     }
@@ -389,7 +238,6 @@ public:
     int right(int root) {
         return root * 2 + 1;
     }
-    
     void swim(int k) {
         while (k > 1 && pq_[parent(k)] < pq_[k]) {
             exch(parent(k), k);
@@ -406,17 +254,13 @@ public:
             k = greater;
         }
     }
+
+    //////////////////////
     void insert(int val) {
         pq_.push_back(val);
         swim(size() - 1);
     }
-    int del() {
-        int max_ = max();
-        exch(1, size() - 1);
-        pq_.pop_back();
-        sink(1);
-        return max_;
-    }
+
     // 如果是删除某个指定 key 呢?
 
     // 构建 maxheap

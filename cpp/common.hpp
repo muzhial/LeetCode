@@ -7,10 +7,11 @@
 #include <string>
 #include <vector>
 #include <stack>
-#include <queue>
+#include <queue>            // queue, priority_queue
 #include <unordered_map>
 #include <list>
 #include <algorithm>        // min, max
+#include <functional>       // greater, less
 #include <cmath>            // abs
 
 #endif  // COMMON_H_

@@ -172,22 +172,35 @@ leetcode C++ implementation
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[204. Count Primes](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/204_CountPrimes.cpp)|Easy|[A](https://leetcode.com/problems/count-primes/)|埃拉托斯特尼筛法|
-|[gcd and lcm](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/gcd_lcm.cpp)|||最大公约数，最小公倍数|
-|[504. Base 7](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/504_Base7.cpp)|Easy|[A](https://leetcode.com/problems/base-7/)|进制转换|
-|[405. Convert a Number to Hexadecimal](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/405_ConvertNumberHexadecimal.cpp)|Easy|[A](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|进制转换|
-|[168. Excel Sheet Column Title](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/168_ExcelSheetColumnTitle.cpp)|Easy|[A](https://leetcode.com/problems/excel-sheet-column-title/)|进制转换|
-|[172. Factorial Trailing Zeroes](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/172_FactorialTrailingZeroes.cpp)|Easy|[A](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘|
-|[67. Add Binary](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/67_AddBinary.cpp)|Easy|[A](https://leetcode.com/problems/add-binary/)|字符串加法减法|
-|[367. Valid Perfect Square](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/367_ValidPerfectSquare.cpp)|Easy|[A](https://leetcode.com/problems/valid-perfect-square/)|平方数|
-|[326. Power of Three](https://github.com/kant-chan/LeetCode/blob/master/cpp/math/326_PowerofThree.cpp)|Easy|[A](https://leetcode.com/problems/power-of-three/)|3 的 n 方，非 loop|
+|[204. Count Primes](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/204_CountPrimes.cpp)|Easy|[A](https://leetcode.com/problems/count-primes/)|埃拉托斯特尼筛法|
+|[gcd and lcm](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/gcd_lcm.cpp)|||最大公约数，最小公倍数|
+|[504. Base 7](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/504_Base7.cpp)|Easy|[A](https://leetcode.com/problems/base-7/)|进制转换|
+|[405. Convert a Number to Hexadecimal](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/405_ConvertNumberHexadecimal.cpp)|Easy|[A](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)|进制转换|
+|[168. Excel Sheet Column Title](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/168_ExcelSheetColumnTitle.cpp)|Easy|[A](https://leetcode.com/problems/excel-sheet-column-title/)|进制转换|
+|[172. Factorial Trailing Zeroes](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/172_FactorialTrailingZeroes.cpp)|Easy|[A](https://leetcode.com/problems/factorial-trailing-zeroes/)|阶乘|
+|[67. Add Binary](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/67_AddBinary.cpp)|Easy|[A](https://leetcode.com/problems/add-binary/)|字符串加法减法|
+|[367. Valid Perfect Square](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/367_ValidPerfectSquare.cpp)|Easy|[A](https://leetcode.com/problems/valid-perfect-square/)|平方数|
+|[326. Power of Three](https://github.com/muzhichan/LeetCode/blob/master/cpp/math/326_PowerofThree.cpp)|Easy|[A](https://leetcode.com/problems/power-of-three/)|3 的 n 方，非 loop|
 
 
 ## Top Interview Questions
 
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
-|[2. Add Two Numbers](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)||
-|[5. Longest Palindromic Substring](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
-|[6. ZigZag Conversion](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
-|[8. String to Integer (atoi)](https://github.com/kant-chan/LeetCode/blob/master/cpp/top_interview_questions/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||
+|[2. Add Two Numbers](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/2_AddTwoNumbers.cpp)|Medium|[A](https://leetcode.com/problems/add-two-numbers/)||
+|[5. Longest Palindromic Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
+|[6. ZigZag Conversion](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
+|[8. String to Integer (atoi)](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||
+
+
+## 剑指 Offer
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+
+
+## Cracking the Coding Interview
+
+| problem     | level | addr| description        |
+|:------------|:------|:----|:-------------------|
+|[面试题 17.14. 最小K个数](https://github.com/muzhichan/LeetCode/blob/master/cpp/CrackingtheCodingInterview/17.14.smallestK.cpp)|Medium|[A](https://leetcode-cn.com/problems/smallest-k-lcci/)|最小 K 个数，优先队列，快排|

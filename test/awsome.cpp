@@ -1,7 +1,11 @@
-#include<iostream>
-#include<vector>
-#include<stack>
+#include <iostream>
+#include <vector>
+#include <stack>
 #include <limits>
+#include <set>
+using std::cout;
+using std::endl;
+using std::set;
 
 class Base {
 public:
@@ -71,10 +75,22 @@ const std::vector<T>& BubbleSort(std::vector<T>& arr)
     return arr;
 }
 
+void TestSet() {
+    set<int> sv;
+    sv.insert(3);
+    sv.insert(3);
+    sv.insert(4);
+
+    for (auto& s : sv) {
+        cout << s << " " << endl;
+    }
+}
+
 int main() {
     // Base b = {1, 2};
     // Base b1;
     // b1 = b;
+    TestSet();
 
     return 0;
 }
