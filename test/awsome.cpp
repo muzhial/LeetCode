@@ -99,12 +99,29 @@ void TestSort() {
     PrintVVector(vv);
 }
 
+void TestHeap() {
+    vector<int> ivec = {15, 1, 12, 30, 20};
+    // default is max-heap
+    std::make_heap(ivec.begin(), ivec.end(), std::less<int>());
+    PrintVector(ivec);
+
+    std::pop_heap(ivec.begin(), ivec.end());
+    std::cout << ivec[4] << std::endl;
+    ivec.pop_back();
+
+    ivec.push_back(73);
+    std::push_heap(ivec.begin(), ivec.end());
+    PrintVector(ivec);
+
+}
+
 int main() {
     // Base b = {1, 2};
     // Base b1;
     // b1 = b;
     // TestSet();
-    TestSort();
+    // TestSort();
+    TestHeap();
 
     return 0;
 }

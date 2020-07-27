@@ -199,7 +199,7 @@ leetcode C++ implementation
 |:------------|:------|:----|:-------------------|
 |[Offer 03](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_03.cpp)|Easy|[A](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|数组中重复的数字|
 |[Offer 04](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_04.cpp)|Easy|[A](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|二维数组中的查找|
-
+|[Offer 05](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_05.cpp)|Easy|[A](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格|
 
 
 ## Cracking the Coding Interview
