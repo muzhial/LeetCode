@@ -1,11 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <stack>
-#include <limits>
-#include <set>
+#include "test.hpp"
 using std::cout;
 using std::endl;
 using std::set;
+using std::vector;
 
 class Base {
 public:
@@ -74,11 +71,40 @@ void TestLambda() {
     std::cout << x << " " << y << std::endl;
 }
 
+void TestSort() {
+    vector<int> v = {2, 3, 1, -1, 0, 8, -11};
+    // 默认升序
+    // std::sort(v.begin(), v.end());
+    // 降序 
+    // auto cmp = [](const int& a, const int& b) {
+    //     return a > b;
+    // };
+    // std::sort(v.begin(), v.end(), cmp);
+    
+    // 降序
+    // std::sort(v.begin(), v.end(), std::greater<int>());
+
+    vector<vector<int>> vv = {{2, 2},
+                              {1, 2},
+                              {3, 2},
+                              {5, 4},
+                              {-1, 3},
+                              {0, 9}};
+    auto cmp = [](const vector<int>& a, const vector<int>& b) {
+        return a[1] > b[1];
+    };
+    // sort 是稳定的排序
+    std::sort(vv.begin(), vv.end(), cmp);
+
+    PrintVVector(vv);
+}
+
 int main() {
     // Base b = {1, 2};
     // Base b1;
     // b1 = b;
-    TestSet();
+    // TestSet();
+    TestSort();
 
     return 0;
 }
