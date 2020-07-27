@@ -1,8 +1,6 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {

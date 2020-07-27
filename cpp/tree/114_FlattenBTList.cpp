@@ -2,10 +2,10 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
+/**
  * [TODO]
  * postorder solution and non-recursive solution
-****************/
+*/
 class Solution {
 public:
     // preorder recursive

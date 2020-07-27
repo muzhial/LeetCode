@@ -1,12 +1,11 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 using std::list;
 
-/***************
+/**
  * [Hint]
  * vector 插入很慢
-****************/
+*/
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
@@ -30,6 +29,6 @@ int main() {
         return a[0] == b[0] ? b[1] > a[1] : a[0] > b[0];
     });
     for (auto& i : v) {
-        cout << i[0] << " " << i[1] << endl;
+        std::cout << i[0] << " " << i[1] << std::endl;
     }
 }

@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {

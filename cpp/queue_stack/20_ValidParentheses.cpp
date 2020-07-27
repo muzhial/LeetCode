@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 using std::stack;
 
-/***************
-****************/
 class Solution {
 public:
     bool isValid(string s) {

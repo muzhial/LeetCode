@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int findLongestChain(vector<vector<int>>& pairs) {
@@ -38,7 +35,7 @@ int main() {
     vector<vector<int>> a{{3, 4}, {5, 6}, {1, 2}};
     std::sort(a.begin(), a.end(), [](vector<int> i, vector<int> j) -> bool { return i[0] < j[0]; });
     for (auto it : a) {
-        cout << it[0] << " " << it[1] << endl;
+        std::cout << it[0] << " " << it[1] << std::endl;
     }
     return 0;
 }

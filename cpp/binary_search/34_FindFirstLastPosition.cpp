@@ -1,8 +1,6 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {

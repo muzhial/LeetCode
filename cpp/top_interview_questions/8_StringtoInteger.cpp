@@ -1,3 +1,5 @@
+#include "../common.hpp"
+using std::string;
 
 class Solution {
 public:

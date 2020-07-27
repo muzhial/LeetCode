@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 using std::unordered_map;
 
-/***************
-****************/
 // ------- Method 1: 备忘录，自顶向下 -------
 int helper(vector<int>& coins, int amount, unordered_map<int, int>& memo) {
     // 如果这段判断放到 for 循环里面，将起不到作用，且冗余
@@ -17,7 +14,7 @@ int helper(vector<int>& coins, int amount, unordered_map<int, int>& memo) {
     if (amount == 0) {
         return memo[0];
     }
-    int MAX = numeric_limits<int>::max();
+    int MAX = std::numeric_limits<int>::max();
     int min_ = MAX;
     for (auto coin: coins) {
         int subproblem = helper(coins, amount - coin, memo);

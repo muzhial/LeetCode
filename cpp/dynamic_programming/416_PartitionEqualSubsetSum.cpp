@@ -1,13 +1,12 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
+/**
  * [分析]
  * dp 数组中状态为 bool 值
  * 状态压缩：dp[n][w] 只由上一行 dp[n-1][...] 转移而来，所以可以
  * 使用一维 dp 进行存储。
-****************/
+*/
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -58,8 +57,6 @@ public:
         return dp[W];
     }
 };
-/***************
-****************/
 
 int main() {
     vector<int> nums = {1, 2, 3, 4};

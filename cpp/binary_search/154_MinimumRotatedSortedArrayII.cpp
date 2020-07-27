@@ -1,8 +1,6 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int findMin(vector<int>& nums) {

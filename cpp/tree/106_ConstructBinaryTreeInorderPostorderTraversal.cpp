@@ -3,11 +3,11 @@
 using std::vector;
 using std::unordered_map;
 
-/***************
+/**
  * 使用 hashmap 缩短搜索时间
  * [TODO]
  * 另外思考 construct BT from preorder and postorder
-****************/
+*/
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {

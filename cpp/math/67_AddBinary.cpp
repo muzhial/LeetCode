@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 
-/***************
-****************/
 class Solution {
 public:
     string addBinary(string a, string b) {

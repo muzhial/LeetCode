@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 using std::stack;
 
-/***************
-****************/
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {

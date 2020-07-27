@@ -1,3 +1,6 @@
+#include "../common.hpp"
+using std::string;
+
 class Solution {
 public:
     string ZigzagConversion(string s) {

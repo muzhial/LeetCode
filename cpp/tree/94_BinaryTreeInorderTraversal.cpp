@@ -2,8 +2,6 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {

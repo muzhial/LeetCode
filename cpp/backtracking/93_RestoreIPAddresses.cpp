@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<string> restoreIpAddresses(string s) {
@@ -50,7 +47,7 @@ int main() {
     string s1 = "255";  // "010010"
     Solution sol;
     for (auto r : sol.restoreIpAddresses(s1)) {
-        cout << r << endl;
+        std::cout << r << std::endl;
     }
     
     return 0;

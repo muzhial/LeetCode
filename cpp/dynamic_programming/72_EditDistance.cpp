@@ -1,9 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
+using std::string;
 
-/***************
-****************/
 class Solution {
 public:
     int minDistance(string word1, string word2) {

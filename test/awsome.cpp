@@ -32,48 +32,11 @@ private:
 };
 
 /*
- * inplace
+ * typename when template
 **/
-template<typename T>
-void SelectionSort(std::vector<T>& arr)
-{
-    typedef typename std::vector<T>::size_type size_type;
-    if (arr.empty())
-        std::cout << "The sorting array is empty" << std::endl;
-    else {
-        for (size_type i=0; i < arr.size() - 1; i++) {
-            size_type min_idx = i;
-            for (size_type j=i+1; j < arr.size(); j++) {
-                if (arr[min_idx] > arr[j]) {
-                    min_idx = j;
-                }
-            }
-            if (i != min_idx) {
-                T tmp = arr[i];
-                arr[i] = arr[min_idx];
-                arr[min_idx] = tmp;
-            }
-        }
-    }
-}
-
-/*
- * in-place
-**/
-template<typename T>
-const std::vector<T>& BubbleSort(std::vector<T>& arr)
-{
-    for (decltype(arr.size()) i=arr.size()-1; i > 0; i--) {
-        for (decltype(arr.size()) j=0; j < i; j++) {
-            if (arr[j] > arr[j+1]) {
-                T tmp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = tmp;
-            }
-        }
-    }
-    return arr;
-}
+// template<typename T>
+// void SelectionSort(std::vector<T>& arr)
+// typedef typename std::vector<T>::size_type size_type;
 
 void TestSet() {
     set<int> sv;
@@ -84,6 +47,31 @@ void TestSet() {
     for (auto& s : sv) {
         cout << s << " " << endl;
     }
+}
+
+void TestLonglong() {
+    int a = 1;
+    cout << (a << 31) << endl;
+    long long i = (a << 30) * (a << 30);
+    cout << i << endl;
+    long long ii = (static_cast<long long>(a) << 30) * (a << 30);
+    cout << ii << endl;
+}
+
+void TestLambda() {
+    int x = 11;
+    int y = 13;
+
+    auto fl = [&x, &y]() mutable -> void {
+        x = 1;
+        std::cout << x << " " << y << std::endl;
+    };
+    x = x ^ y;
+    y = x ^ y;
+    x = x ^ y;
+    std::cout << x << " " << y << std::endl;
+    fl();
+    std::cout << x << " " << y << std::endl;
 }
 
 int main() {

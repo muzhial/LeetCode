@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::queue;
 
-/***************
-****************/
 class MyStack {
 public:
     /** Initialize your data structure here. */

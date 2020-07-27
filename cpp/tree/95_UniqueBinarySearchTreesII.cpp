@@ -2,10 +2,10 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
+/**
 * 分析：
 * 对于二分查找树，中序遍历正好为不严格升序排列。
-****************/
+*/
 class Solution {
 public:
     vector<TreeNode*> GenTrees(int start, int end) {

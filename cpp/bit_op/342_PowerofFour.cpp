@@ -1,8 +1,5 @@
 #include "../common.hpp"
-using namespace std;
 
-/***************
-****************/
 class Solution {
 public:
     bool isPowerOfFour(int num) {

@@ -1,11 +1,10 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
+/**
  * [分析]
  * dp[i] 为当前 amount 为 i 时的组合数
-****************/
+*/
 class Solution {
 public:
     // 压缩状态后

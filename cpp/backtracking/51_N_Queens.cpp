@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 using std::string;
 
-/***************
-****************/
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {

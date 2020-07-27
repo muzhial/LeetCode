@@ -2,8 +2,6 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {

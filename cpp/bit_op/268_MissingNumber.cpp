@@ -1,8 +1,6 @@
 #include "../common.hpp"
-using namespace std;
+using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {

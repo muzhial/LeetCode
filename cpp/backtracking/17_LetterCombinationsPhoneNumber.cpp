@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -34,8 +31,8 @@ private:
 int main() {
     string s = "123456";
     for (auto c : s) {
-        cout << c - '0' << " ";
+        std::cout << c - '0' << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
     return 0;
 }

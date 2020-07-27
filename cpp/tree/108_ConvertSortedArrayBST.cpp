@@ -2,11 +2,11 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
+/**
  * 选取 array 中间元素作为 root 结点
  * [TODO]
  * 使用栈的方式，而非递归的方式
-****************/
+*/
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {

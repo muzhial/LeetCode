@@ -3,8 +3,6 @@ using std::string;
 using std::vector;
 using std::unordered_map;
 
-/***************
-****************/
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {

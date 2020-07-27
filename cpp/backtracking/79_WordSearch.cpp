@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::string;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -57,9 +54,9 @@ int main() {
     vector<vector<int>> a = {{1, 2}, {3, 5}, {3, 8}};
     auto it = std::find(a.begin(), a.end(), vector<int>{1, 0});
     if (it != a.end()) {
-        cout << "yes" << endl;
+        std::cout << "yes" << std::endl;
     } else {
-        cout << "no" << endl;
+        std::cout << "no" << std::endl;
     }
 
     return 0;

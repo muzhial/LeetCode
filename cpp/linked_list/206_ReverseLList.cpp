@@ -1,17 +1,9 @@
-#include <iostream>
-using namespace std;
+#define LISTNODE
+#include "../common.hpp"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
-/***************
+/**
  * iteratively or recursively
-****************/
+*/
 // 递归
 class Solution {
 public:
@@ -62,5 +54,3 @@ class SolutionII {
         return new_head->next;
     }
 };
-/***************
-****************/

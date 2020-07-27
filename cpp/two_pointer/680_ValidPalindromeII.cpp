@@ -1,9 +1,9 @@
 #include "../common.hpp"
 using std::string;
 
-/***************
+/**
  * "cupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucu"
-****************/
+*/
 class Solution {
 public:
     bool validPalindrome(string s) {

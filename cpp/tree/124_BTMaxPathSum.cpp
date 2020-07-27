@@ -2,7 +2,7 @@
 #include "../common.hpp"
 using std::vector;
 
-/***************
+/**
  * [Hint]
  * 题目对 path 的描述不清晰，注意 path 中不会出现分叉，比如：
  *          5
@@ -11,7 +11,7 @@ using std::vector;
  *    /       /  \
  *   11      13   4
  * 7    2          1
-****************/
+*/
 class Solution {
 public:
     int maxPathSum(TreeNode* root) {

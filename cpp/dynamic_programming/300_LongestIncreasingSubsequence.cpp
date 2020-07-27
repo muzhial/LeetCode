@@ -1,13 +1,12 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
+/**
 * [分析]
 * dp[n] 定义为以 nums[n] 结尾的最长递增子序列的长度
 * [test]
 * [10,9,2,5,3,7,101,18]  4
-****************/
+*/
 // Time -> O(n^2)
 class Solution {
 public:

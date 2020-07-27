@@ -1,10 +1,6 @@
-#include <vector>
-#include <limits>
-using namespace std;
+#include "../common.hpp"
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -22,5 +18,3 @@ public:
         return max_;
     }
 };
-/***************
-****************/

@@ -1,12 +1,11 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
+/**
  * [分析]
  * dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
  * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
-****************/
+*/
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {

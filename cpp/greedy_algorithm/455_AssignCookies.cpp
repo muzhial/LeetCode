@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {

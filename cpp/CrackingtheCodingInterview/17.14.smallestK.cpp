@@ -39,3 +39,47 @@ public:
         return ret;
     }
 };
+
+class SolutionII {
+public:
+    int Partition(vector<int>& alist, int l, int r) {
+        int m = l;
+        for (int k = l + 1; k <= r; ++k) {
+            if (alist[k] < alist[l]) {
+                m++;
+                if (m != k) {
+                    std::swap(alist[m], alist[k]);
+                }
+            }
+        }
+        std::swap(alist[m], alist[l]);
+        
+        return m;
+    }
+
+    int QuickSelect(vector<int>& alist, int l, int r, int index) {
+        int q = Partition(alist, l, r);
+        if (index == q) {
+            return q;
+        } else {
+            return q > index ? QuickSelect(alist, l, q - 1, index) : QuickSelect(alist, q + 1, r, index);
+        }
+    }
+
+    vector<int> smallestK(vector<int>& arr, int k) {
+        int sz = arr.size();
+        if (k >= sz) {
+            return arr;
+        }
+        if (k == 0) {
+            return vector<int> {};
+        }
+        QuickSelect(arr, 0, sz - 1, k - 1);
+
+        vector<int> ret;
+        for (int i = 0; i < k; ++i) {
+            ret.push_back(arr[i]);
+        }
+        return ret;
+    }
+};

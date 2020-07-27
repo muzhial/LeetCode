@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {

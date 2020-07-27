@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     int findMinArrowShots(vector<vector<int>>& points) {
@@ -43,6 +40,6 @@ int main() {
     vector<vector<int>> v{{7,0}, {4,4}, {7,1} ,{5,0}, {6,1}, {5,2}};
     std::sort(v.begin(), v.end());
     for (auto& vi : v) {
-        cout << vi[0] << " " << vi[1] << endl;
+        std::cout << vi[0] << " " << vi[1] << std::endl;
     }
 }

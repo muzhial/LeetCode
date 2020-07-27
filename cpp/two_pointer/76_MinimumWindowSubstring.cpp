@@ -2,8 +2,6 @@
 using std::string;
 using std::unordered_map;
 
-/***************
-****************/
 class Solution {
 public:
     string minWindow(string s, string t) {

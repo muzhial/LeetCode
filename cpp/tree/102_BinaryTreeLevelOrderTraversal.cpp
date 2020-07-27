@@ -4,8 +4,6 @@ using std::vector;
 using std::stack;
 using std::queue;
 
-/***************
-****************/
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {

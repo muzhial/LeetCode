@@ -3,13 +3,13 @@
 using std::vector;
 using std::stack;
 
-/***************
+/**
 * 注意：
 * 1. 边界溢出问题，int 类型最小值 -2147483648(巨坑)
 * 2. 注意等于的情况视为 false 情况
 * 扩展：
 * 如果左树小于，右树大于等于？
-****************/
+*/
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {

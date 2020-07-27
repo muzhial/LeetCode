@@ -1,10 +1,7 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 using std::string;
 
-/***************
-****************/
 class Solution {
 public:
     void solveSudoku(vector<vector<char>>& board) {

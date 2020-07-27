@@ -2,8 +2,6 @@
 using std::string;
 using std::unordered_map;
 
-/***************
-****************/
 // 滑动窗口解法
 class Solution {
 public:

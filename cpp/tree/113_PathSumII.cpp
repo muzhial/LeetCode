@@ -3,11 +3,11 @@
 using std::vector;
 using std::stack;
 
-/***************
+/**
  * [分析]
  * 1. depth-first search(preorder) + stack(使用 vector 方便数据记录)
  * [TODO]elegant
-****************/
+*/
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {

@@ -1,15 +1,11 @@
+#define LISTNODE
+#include "../common.hpp"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(nullptr) {}
-};
-
-/***************
+/**
  * [分析]
  * 链表 A B 相交于 n，则指向两链表的指针分别到达尾端后跳到
  * 对象链表开头继续后移，直到两者指向同一个节点，则此节点为交点
-****************/
+*/
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -30,5 +26,3 @@ public:
         return cursor_a;
     }
 };
-/***************
-****************/

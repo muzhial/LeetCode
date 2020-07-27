@@ -1,9 +1,9 @@
 #include "../common.hpp"
 
-/***************
+/**
  * [分析]
  * 此题关键在溢出问题把握，位操作
-****************/
+*/
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -36,5 +36,5 @@ public:
 
 int main() {
     Solution s;
-    cout << s.divide(-2147483648, -1) << endl;
+    std::cout << s.divide(-2147483648, -1) << std::endl;
 }

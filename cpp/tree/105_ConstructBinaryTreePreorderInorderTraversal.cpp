@@ -3,9 +3,9 @@
 using std::vector;
 using std::unordered_map;
 
-/***************
+/**
  * 元素不重复，如果重复的话如何解？
-****************/
+*/
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {

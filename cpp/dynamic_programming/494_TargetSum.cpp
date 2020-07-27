@@ -1,10 +1,9 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
+/**
  * W = (sum + target) / 2
-****************/
+*/
 class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int S) {

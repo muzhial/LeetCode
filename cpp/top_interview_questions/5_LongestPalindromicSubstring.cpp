@@ -1,16 +1,5 @@
-/**
-Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
-
-Example 1:
-
-Input: "babad"
-Output: "bab"
-Note: "aba" is also a valid answer.
-Example 2:
-
-Input: "cbbd"
-Output: "bb"
-*/
+#include "../common.hpp"
+using std::string;
 
 // 二分递归进行求解 因为最长回文字串不可能超过整个字串的一半
 // 错误: string test_str = "12ababa";

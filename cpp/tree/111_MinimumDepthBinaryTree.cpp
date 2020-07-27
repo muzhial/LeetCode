@@ -3,8 +3,6 @@
 using std::vector;
 using std::queue;
 
-/***************
-****************/
 class Solution {
 public:
     int minDepth(TreeNode* root) {

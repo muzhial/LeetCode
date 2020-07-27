@@ -1,9 +1,6 @@
 #include "../common.hpp"
-using namespace std;
 using std::vector;
 
-/***************
-****************/
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {

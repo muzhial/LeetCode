@@ -3,14 +3,14 @@
 using std::vector;
 using std::stack;
 
-/***************
+/**
 * A solution using O(n) space is pretty straight forward.
 * Could you devise a constant space solution?
 * 分析：
 * 没有元素相等情况下，中序遍历，下降延的第 1 个元素(first)，然后找比该元素大的元素(end)，无则最后
 * 元素为 end。则 end 元素的前一个元素即为另一个交换后的元素(second)。
 * 然后交换 first->val 和 second->val 的值。
-****************/
+*/
 class Solution {
 public:
     void recoverTree(TreeNode* root) {

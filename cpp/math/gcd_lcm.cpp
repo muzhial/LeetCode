@@ -1,8 +1,5 @@
 #include "../common.hpp"
-using namespace std;
 
-/***************
-****************/
 // 最大公约数(欧几里得算法)
 int gcd(int a, int b) {
     return b == 0 ? a : gcd(b, a % b);
@@ -50,9 +47,9 @@ int lcm(int a, int b) {
 
 int main() {
     int a = 4;
-    cout << (~a) << endl;  // -2
-    cout << !(a & 1) << endl;
-    cout << (!a & 1) << endl;
+    std::cout << (~a) << std::endl;  // -2
+    std::cout << !(a & 1) << std::endl;
+    std::cout << (!a & 1) << std::endl;
 
     return 0;
 }
