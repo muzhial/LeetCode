@@ -191,6 +191,9 @@ leetcode C++ implementation
 |[5. Longest Palindromic Substring](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/5_LongestPalindromicSubstring.cpp)|Medium|[A](https://leetcode.com/problems/longest-palindromic-substring/)||
 |[6. ZigZag Conversion](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/6_ZigZagConversion.cpp)|Medium|[A](https://leetcode.com/problems/zigzag-conversion/)||
 |[8. String to Integer (atoi)](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/8_StringtoInteger.cpp)|Medium|[A](https://leetcode.com/problems/string-to-integer-atoi/)||
+|[120. 三角形最小路径和](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/120_minimumTotal.cpp)|Medium|[A](https://leetcode.com/problems/triangle/)|三角形最小路径和|
+|[1262. 可被三整除的最大和](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/1262_maxSumDivThree.cpp)|Medium|[A](https://leetcode.com/problems/greatest-sum-divisible-by-three/)|可被三整除的最大和|
+|[542. 01 矩阵](https://github.com/muzhichan/LeetCode/blob/master/cpp/top_interview_questions/542_updateMatrix.cpp)|Medium|[A](https://leetcode.com/problems/01-matrix/)|01 矩阵|
 
 
 ## 剑指 Offer
@@ -200,6 +203,7 @@ leetcode C++ implementation
 |[Offer 03](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_03.cpp)|Easy|[A](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|数组中重复的数字|
 |[Offer 04](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_04.cpp)|Easy|[A](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|二维数组中的查找|
 |[Offer 05](https://github.com/muzhichan/LeetCode/blob/master/cpp/SwordOffer/offer_05.cpp)|Easy|[A](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|替换空格|
+
 
 
 ## Cracking the Coding Interview

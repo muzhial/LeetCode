@@ -1,8 +1,10 @@
 #include "test.hpp"
 using std::cout;
 using std::endl;
+using std::string;
 using std::set;
 using std::vector;
+using std::pair;
 
 class Base {
 public:
@@ -112,7 +114,25 @@ void TestHeap() {
     ivec.push_back(73);
     std::push_heap(ivec.begin(), ivec.end());
     PrintVector(ivec);
+}
 
+pair<string, int> GetPerson() {
+    return std::make_pair("Sven", 23);
+}
+void TestPair() {
+    pair<string, int> name_age("Muzhi", 28);
+    pair<string, int> n1 = name_age;
+
+    pair<int, int> point(0, 0);
+    point.first = 1.7;
+    point.second = 2.6;
+
+    pair<string, vector<int>> line;
+    line = std::make_pair("kant", vector<int>{1, 4, 5});
+
+    string name;
+    int age;
+    std::tie(name, age) = GetPerson();
 }
 
 int main() {
