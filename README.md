@@ -211,3 +211,9 @@ leetcode C++ implementation
 | problem     | level | addr| description        |
 |:------------|:------|:----|:-------------------|
 |[面试题 17.14. 最小K个数](https://github.com/muzhichan/LeetCode/blob/master/cpp/CrackingtheCodingInterview/17.14.smallestK.cpp)|Medium|[A](https://leetcode-cn.com/problems/smallest-k-lcci/)|最小 K 个数，优先队列，快排|
+
+## Knowledge
+
+- [labuladong](https://labuladong.gitbook.io/algo/)
+- [CyC2018](https://github.com/CyC2018/CS-Notes)
+- [yuanbin](https://algorithm.yuanbin.me/zh-hans/)
