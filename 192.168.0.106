@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Thu Mar 17 00:54:41 2022 as: nmap -v -Pn -o 192.168.0.106
+Read data files from: /usr/local/bin/../share/nmap
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Thu Mar 17 00:54:41 2022 -- 0 IP addresses (0 hosts up) scanned in 0.03 seconds
